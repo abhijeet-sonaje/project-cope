@@ -10,6 +10,9 @@ export const routes: Routes = [
     }, {
         path: '',
         component: LayoutComponent,
-        children: []
+        children: [{
+            path: '',
+            loadChildren: './dashboard/dashboard.module#DashboardModule'
+        }]
     },
 ];
