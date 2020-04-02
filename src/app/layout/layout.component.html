@@ -1,0 +1,32 @@
+<!-- <div class="container"> -->
+<mat-toolbar color="primary" class="toolbar navbar">
+    <div class="toolbar-left-container">
+        <div routerLink="/dashboard" routerLinkActive="active" class="logo-container">
+            <img src="./../../assets/image/logo.png" alt="logo" class="main-logo">
+            <h3>Project COPE</h3>
+        </div>
+    </div>
+    <div class="toolbar-right-container">
+        <!-- <a class="navbar-links" mat-button (click)="uploadData()">Upload Data</a> -->
+    </div>
+</mat-toolbar>
+<mat-sidenav-container class="dashboard-container" autosize style="background-color: white;">
+    <mat-sidenav #sidenav class="dashboard-sidenav" mode="side" opened="true">
+
+        <mat-nav-list>
+            <mat-list-item>
+                <mat-icon mat-list-icon>perm_identity</mat-icon>
+                <p matLine> Test </p>
+            </mat-list-item>
+        </mat-nav-list>
+
+    </mat-sidenav>
+
+    <div class="dashboard-sidenav-content">
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+
+</mat-sidenav-container>
+<!-- </div> -->
