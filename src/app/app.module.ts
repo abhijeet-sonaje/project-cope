@@ -42,6 +42,8 @@ import {
     MatDatepickerModule
 } from '@angular/material';
 
+import { LayoutComponent } from './layout/layout.component';
+
 @NgModule({
     exports: [
         MatAutocompleteModule,
@@ -83,7 +85,8 @@ export class MaterialModule { }
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        LayoutComponent
     ],
     imports: [
         RouterModule.forRoot(routes),

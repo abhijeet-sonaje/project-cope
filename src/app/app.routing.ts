@@ -1,3 +1,15 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { LayoutComponent } from './layout/layout.component';
+
+export const routes: Routes = [
+    {
+        path: '',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
+    }, {
+        path: '',
+        component: LayoutComponent,
+        children: []
+    },
+];

@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links{
+    text-transform: uppercase;
+}
+
+.toolbar{
+    background-color: #353434;
+    color: white;
+}
+
+.main-logo{
+    width: 35px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.logo-container{
+    display: flex;
+    margin-top: 5px;
+}
+
+.dashboard-container {
+    height: calc(100vh - 64px);
+}
+
+.dashboard-sidenav{
+    background-color: grey;
+    width: 15%;
+}
+
+.dashboard-sidenav mat-icon, .dashboard-sidenav p{
+    color: white;
+}
+  
+.dashboard-sidenav-content {
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    background-color: white;
+    /* padding: 40px 0px; */
+}
+
+.toolbar-left-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width: 840px){
+
+    .toolbar-right-container{
+        display: none;
+    }
+}
+  
+  
