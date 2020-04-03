@@ -1,0 +1,63 @@
+{
+    "Data for Demo": [
+        {
+            "Total WBC Count": "Unit ",
+            "undefined": "cells/cumm",
+            "Platelet Count": "Unit: lakhs/cumm",
+            "Neutrophils": "Unit: %",
+            "Lymphocytes": "Unit: %",
+            "NLR Ratio": "NULL",
+            "ALT/AST Ratio": "NULL",
+            "Creatinine": "Unit: mg/dl",
+            "IgG, SERUM": "Unit: mg/dl",
+            "IgM, SERUM": "Unit: mg/dl"
+        },
+        {
+            "Total WBC Count": "ParamID",
+            "undefined": "375",
+            "Platelet Count": "ParamID: 331",
+            "Neutrophils": "ParamID: 420",
+            "Lymphocytes": "ParamID: 421",
+            "ALT/AST Ratio": "ParamID: 976",
+            "Creatinine": "ParamID: 854",
+            "IgG, SERUM": "ParamID: 1419",
+            "IgM, SERUM": "ParamID: 1420"
+        },
+        {
+            "ID": "User6",
+            "Gender": "Female",
+            "Age&#10;(in&#10;Days)": "6206",
+            "Area ": "Vanasthalipuram",
+            "City ": "Hyderabad",
+            "Country ": "india",
+            "Total WBC Count": "8300",
+            "Platelet Count": "2.15",
+            "Neutrophils": "58.9",
+            "Lymphocytes": "31.1",
+            "NLR Ratio": "1.893890675",
+            "ALT/AST Ratio": "2",
+            "Creatinine": "5",
+            "IgG, SERUM": "7",
+            "IgM, SERUM": "8",
+            "COVID19 Test&#10;(Positive or Negative)": "Positive"
+        },
+        {
+            "ID": "User5",
+            "Gender": "Male",
+            "Age&#10;(in&#10;Days)": "13871",
+            "Area ": "Aundh",
+            "City ": "Pune ",
+            "Country ": "India",
+            "Total WBC Count": "7900",
+            "Platelet Count": "3.02",
+            "Neutrophils": "47.5",
+            "Lymphocytes": "46",
+            "NLR Ratio": "1.032608696",
+            "ALT/AST Ratio": "3",
+            "Creatinine": "6",
+            "IgG, SERUM": "10",
+            "IgM, SERUM": "9",
+            "COVID19 Test&#10;(Positive or Negative)": "Unkown"
+        }
+    ]
+}
