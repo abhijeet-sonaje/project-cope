@@ -3,7 +3,7 @@
     <div class="toolbar-left-container">
         <div routerLink="/dashboard" routerLinkActive="active" class="logo-container">
             <img src="./../../assets/image/logo.png" alt="logo" class="main-logo">
-            <h3>Project COPE</h3>
+            <h3>Project COPE - COVID-19 Outbreak Prediction Engine</h3>
         </div>
     </div>
     <div class="toolbar-right-container">
@@ -13,10 +13,17 @@
 <mat-sidenav-container class="dashboard-container" autosize style="background-color: white;">
     <mat-sidenav #sidenav class="dashboard-sidenav" mode="side" opened="true">
 
-        <mat-nav-list>
+        <mat-nav-list routerLink="/map-view" routerLinkActive="active">
             <mat-list-item>
-                <mat-icon mat-list-icon>perm_identity</mat-icon>
-                <p matLine> Test </p>
+                <mat-icon mat-list-icon>add_location</mat-icon>
+                <p matLine> Map View </p>
+            </mat-list-item>
+        </mat-nav-list>
+
+        <mat-nav-list routerLink="/graph-view" routerLinkActive="active">
+            <mat-list-item>
+                <mat-icon mat-list-icon>insert_chart_outlined</mat-icon>
+                <p matLine> Graph Analytics </p>
             </mat-list-item>
         </mat-nav-list>
 
