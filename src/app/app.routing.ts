@@ -5,7 +5,7 @@ import { LayoutComponent } from './layout/layout.component';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'dashboard',
+        redirectTo: 'map-view',
         pathMatch: 'full',
     }, {
         path: '',
