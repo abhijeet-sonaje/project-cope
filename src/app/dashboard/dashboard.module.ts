@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from './../app.module';
 
 import { MapViewComponent } from './map-view/map-view.component';
 import { GraphViewComponent } from './graph-view/graph-view.component';
 import { DashboardRoutes } from './dashboard.routing';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
     declarations: [
@@ -15,6 +17,10 @@ import { DashboardRoutes } from './dashboard.routing';
     imports: [
         CommonModule,
         RouterModule.forChild(DashboardRoutes),
+        FormsModule,
+        ReactiveFormsModule,
+        MaterialModule,
+        HttpClientModule
     ]
 })
 export class DashboardModule { }

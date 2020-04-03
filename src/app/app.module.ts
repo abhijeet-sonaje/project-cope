@@ -6,6 +6,9 @@ import { CommonModule } from '@angular/common';
 import { routes } from './app.routing';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+
+import { LayoutComponent } from './layout/layout.component';
 
 import {
     MatAutocompleteModule,
@@ -41,8 +44,6 @@ import {
     MatFormFieldModule,
     MatDatepickerModule
 } from '@angular/material';
-
-import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
     exports: [
@@ -93,7 +94,8 @@ export class MaterialModule { }
         CommonModule,
         BrowserModule,
         BrowserAnimationsModule,
-        MaterialModule
+        MaterialModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
