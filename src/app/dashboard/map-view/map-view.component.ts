@@ -18,7 +18,7 @@ export class MapViewComponent implements OnInit {
     selectedState: State;
 
     /** list of states */
-    private states: State[] = [];
+    states: State[] = [];
 
     constructor(private dataService: DataService, private sanitizer: DomSanitizer) {
         this.dataService.getStateJSON().subscribe((res) => {
