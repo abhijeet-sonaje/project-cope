@@ -8,182 +8,3525 @@
         {
             "short_code": "AN",
             "name": "Andaman and Nicobar Islands",
-            "svg_path": "a-n-islands.svg"
+            "svg_path": "a-n-islands.svg",
+            "score": 4,
+            "overall": 45,
+            "district": [
+                {
+                    "short_code": "NS",
+                    "name": "North and Middle Andaman",
+                    "score": 4,
+                    "overall": 57
+                },
+                {
+                    "short_code": "NS",
+                    "name": "Nicobar",
+                    "score": 3,
+                    "overall": 5
+                },
+                {
+                    "short_code": "NS",
+                    "name": "South Andaman",
+                    "score": 3,
+                    "overall": 80
+                }
+            ]
         },
         {
             "short_code": "AP",
             "name": "Andhra Pradesh",
-            "svg_path": "andhra-pradesh.svg"
+            "svg_path": "andhra-pradesh.svg",
+            "score": 4,
+            "overall": 23,
+            "district": [
+                {
+                    "name": "Adilabad",
+                    "score": "3",
+                    "overall": "23"
+                },
+                {
+                    "name": "Anantapur",
+                    "score": "2",
+                    "overall": "70"
+                },
+                {
+                    "name": "Chittoor",
+                    "score": "4",
+                    "overall": "72"
+                },
+                {
+                    "name": "East Godavari",
+                    "score": "5",
+                    "overall": "70"
+                },
+                {
+                    "name": "Guntur",
+                    "score": "6",
+                    "overall": "25"
+                },
+                {
+                    "name": "Hyderabad",
+                    "score": "2",
+                    "overall": "56"
+                },
+                {
+                    "name": "Karimnagar",
+                    "score": "3",
+                    "overall": "93"
+                },
+                {
+                    "name": "Khammam",
+                    "score": "5",
+                    "overall": "96"
+                },
+                {
+                    "name": "Krishna",
+                    "score": "1",
+                    "overall": "11"
+                },
+                {
+                    "name": "Kurnool",
+                    "score": "1.5",
+                    "overall": "72"
+                },
+                {
+                    "name": "Mahbubnagar",
+                    "score": "4.5",
+                    "overall": "75"
+                },
+                {
+                    "name": "Medak",
+                    "score": "1",
+                    "overall": "87"
+                },
+                {
+                    "name": "Nalgonda",
+                    "score": "2",
+                    "overall": "26"
+                },
+                {
+                    "name": "Nizamabad",
+                    "score": "2.5",
+                    "overall": "92"
+                },
+                {
+                    "name": "Prakasam",
+                    "score": "5.5",
+                    "overall": "44"
+                },
+                {
+                    "name": "Rangareddi",
+                    "score": "1",
+                    "overall": "69"
+                },
+                {
+                    "name": "Sri Potti Sriramulu Nellore",
+                    "score": "4",
+                    "overall": "94"
+                },
+                {
+                    "name": "Srikakulam",
+                    "score": "2",
+                    "overall": "39"
+                },
+                {
+                    "name": "Visakhapatnam",
+                    "score": "2.5",
+                    "overall": "72"
+                },
+                {
+                    "name": "Vizianagaram",
+                    "score": "1.2",
+                    "overall": "31"
+                },
+                {
+                    "name": "Warangal",
+                    "score": "3",
+                    "overall": "79"
+                },
+                {
+                    "name": "West Godavari",
+                    "score": "1",
+                    "overall": "49"
+                },
+                {
+                    "name": "Y.S.R.",
+                    "score": "5.5",
+                    "overall": "30"
+                }
+            ]
         },
         {
             "short_code": "AR",
             "name": "Arunachal Pradesh",
-            "svg_path": "arunachal-pradesh.svg"
+            "svg_path": "arunachal-pradesh.svg",
+            "score": 1,
+            "overall": 17,
+            "district": [
+                {
+                    "name": "Anjaw",
+                    "score": "1",
+                    "overall": "73"
+                },
+                {
+                    "name": "Changlang",
+                    "score": "2",
+                    "overall": "31"
+                },
+                {
+                    "name": "Dibang Valley",
+                    "score": "3",
+                    "overall": "82"
+                },
+                {
+                    "name": "East Kameng",
+                    "score": "4",
+                    "overall": "91"
+                },
+                {
+                    "name": "East Siang",
+                    "score": "2",
+                    "overall": "2"
+                },
+                {
+                    "name": "Kurung Kumey",
+                    "score": "1",
+                    "overall": "78"
+                },
+                {
+                    "name": "Lohit",
+                    "score": "3",
+                    "overall": "33"
+                },
+                {
+                    "name": "Lower Dibang Valley",
+                    "score": "1",
+                    "overall": "47"
+                },
+                {
+                    "name": "Lower Subansiri",
+                    "score": "1",
+                    "overall": "62"
+                },
+                {
+                    "name": "Papum Pare",
+                    "score": "1",
+                    "overall": "69"
+                },
+                {
+                    "name": "Tawang",
+                    "score": "1",
+                    "overall": "37"
+                },
+                {
+                    "name": "Tirap",
+                    "score": "2",
+                    "overall": "2"
+                },
+                {
+                    "name": "Upper Siang",
+                    "score": "1",
+                    "overall": "62"
+                },
+                {
+                    "name": "Upper Subansiri",
+                    "score": "2.3",
+                    "overall": "93"
+                },
+                {
+                    "name": "West Kameng",
+                    "score": "1",
+                    "overall": "74"
+                },
+                {
+                    "name": "West Siang",
+                    "score": "2",
+                    "overall": "89"
+                }
+            ]
         },
         {
             "short_code": "AS",
             "name": "Assam",
-            "svg_path": "assam.svg"
+            "svg_path": "assam.svg",
+            "score": 3,
+            "overall": 27,
+            "district": [
+                {
+                    "name": "Baksa",
+                    "score": "3",
+                    "overall": "2"
+                },
+                {
+                    "name": "Barpeta",
+                    "score": "4",
+                    "overall": "8"
+                },
+                {
+                    "name": "Bongaigaon",
+                    "score": "1",
+                    "overall": "71"
+                },
+                {
+                    "name": "Cachar",
+                    "score": "2",
+                    "overall": "77"
+                },
+                {
+                    "name": "Chirang",
+                    "score": "1",
+                    "overall": "52"
+                },
+                {
+                    "name": "Darrang",
+                    "score": "1",
+                    "overall": "80"
+                },
+                {
+                    "name": "Dhemaji",
+                    "score": "2",
+                    "overall": "49"
+                },
+                {
+                    "name": "Dhubri",
+                    "score": "1",
+                    "overall": "1"
+                },
+                {
+                    "name": "Dibrugarh",
+                    "score": "1",
+                    "overall": "61"
+                },
+                {
+                    "name": "Dima Hasao",
+                    "score": "2",
+                    "overall": "30"
+                },
+                {
+                    "name": "Goalpara",
+                    "score": "4",
+                    "overall": "87"
+                },
+                {
+                    "name": "Golaghat",
+                    "score": "5",
+                    "overall": "17"
+                },
+                {
+                    "name": "Hailakandi",
+                    "score": "1",
+                    "overall": "26"
+                },
+                {
+                    "name": "Jorhat",
+                    "score": "1",
+                    "overall": "70"
+                },
+                {
+                    "name": "Kamrup",
+                    "score": "1",
+                    "overall": "56"
+                },
+                {
+                    "name": "Kamrup Metropolitan",
+                    "score": "1",
+                    "overall": "39"
+                },
+                {
+                    "name": "Karbi Anglong",
+                    "score": "3",
+                    "overall": "72"
+                },
+                {
+                    "name": "Karimganj",
+                    "score": "2",
+                    "overall": "33"
+                },
+                {
+                    "name": "Kokrajhar",
+                    "score": "3",
+                    "overall": "63"
+                },
+                {
+                    "name": "Lakhimpur",
+                    "score": "2",
+                    "overall": "66"
+                },
+                {
+                    "name": "Morigaon",
+                    "score": "1",
+                    "overall": "56"
+                },
+                {
+                    "name": "Nagaon",
+                    "score": "4",
+                    "overall": "82"
+                },
+                {
+                    "name": "Nalbari",
+                    "score": "1",
+                    "overall": "50"
+                },
+                {
+                    "name": "Sivasagar",
+                    "score": "2",
+                    "overall": "18"
+                },
+                {
+                    "name": "Sonitpur",
+                    "score": "3",
+                    "overall": "1"
+                },
+                {
+                    "name": "Tinsukia",
+                    "score": "1",
+                    "overall": "55"
+                },
+                {
+                    "name": "Udalguri",
+                    "score": "1",
+                    "overall": "44"
+                }
+            ]
         },
         {
             "short_code": "BR",
             "name": "Bihar",
-            "svg_path": "bihar.svg"
+            "svg_path": "bihar.svg",
+            "score": 3.2,
+            "overall": 38,
+            "district": [
+                {
+                    "name": "Araria",
+                    "score": "1",
+                    "overall": "60"
+                },
+                {
+                    "name": "Arwal",
+                    "score": "2",
+                    "overall": "12"
+                },
+                {
+                    "name": "Aurangabad",
+                    "score": "3",
+                    "overall": "72"
+                },
+                {
+                    "name": "Banka",
+                    "score": "3",
+                    "overall": "35"
+                },
+                {
+                    "name": "Begusarai",
+                    "score": "3",
+                    "overall": "46"
+                },
+                {
+                    "name": "Bhagalpur",
+                    "score": "4",
+                    "overall": "32"
+                },
+                {
+                    "name": "Bhojpur",
+                    "score": "1",
+                    "overall": "76"
+                },
+                {
+                    "name": "Buxar",
+                    "score": "5",
+                    "overall": "43"
+                },
+                {
+                    "name": "Dharbanga",
+                    "score": "1",
+                    "overall": "91"
+                },
+                {
+                    "name": "Gaya",
+                    "score": "2",
+                    "overall": "94"
+                },
+                {
+                    "name": "Gopalganj",
+                    "score": "3",
+                    "overall": "94"
+                },
+                {
+                    "name": "Jamui",
+                    "score": "4",
+                    "overall": "85"
+                },
+                {
+                    "name": "Jehanabad",
+                    "score": "5",
+                    "overall": "27"
+                },
+                {
+                    "name": "Kaimur (Bhabua)",
+                    "score": "2",
+                    "overall": "2"
+                },
+                {
+                    "name": "Katihar",
+                    "score": "3",
+                    "overall": "75"
+                },
+                {
+                    "name": "Khagaria",
+                    "score": "4",
+                    "overall": "26"
+                },
+                {
+                    "name": "Kishanganj",
+                    "score": "1",
+                    "overall": "6"
+                },
+                {
+                    "name": "Lakhisarai",
+                    "score": "2",
+                    "overall": "76"
+                },
+                {
+                    "name": "Madhopura",
+                    "score": "2",
+                    "overall": "75"
+                },
+                {
+                    "name": "Madhubani",
+                    "score": "2",
+                    "overall": "56"
+                },
+                {
+                    "name": "Munger",
+                    "score": "3",
+                    "overall": "38"
+                },
+                {
+                    "name": "Muzaffarpur",
+                    "score": "3",
+                    "overall": "4"
+                },
+                {
+                    "name": "Nalanda",
+                    "score": "4",
+                    "overall": "87"
+                },
+                {
+                    "name": "Nawada",
+                    "score": "5",
+                    "overall": "56"
+                },
+                {
+                    "name": "Paschim Champaran",
+                    "score": "5",
+                    "overall": "97"
+                },
+                {
+                    "name": "Patna",
+                    "score": "5",
+                    "overall": "55"
+                },
+                {
+                    "name": "Purba Champaran",
+                    "score": "1",
+                    "overall": "41"
+                },
+                {
+                    "name": "Purnia",
+                    "score": "5",
+                    "overall": "42"
+                },
+                {
+                    "name": "Rohtas",
+                    "score": "2",
+                    "overall": "40"
+                },
+                {
+                    "name": "Saharsa",
+                    "score": "3",
+                    "overall": "73"
+                },
+                {
+                    "name": "Samastipur",
+                    "score": "1",
+                    "overall": "36"
+                },
+                {
+                    "name": "Saran",
+                    "score": "1",
+                    "overall": "74"
+                },
+                {
+                    "name": "Sheikhpura",
+                    "score": "1",
+                    "overall": "95"
+                },
+                {
+                    "name": "Sheohar",
+                    "score": "1",
+                    "overall": "91"
+                },
+                {
+                    "name": "Sitamarhi",
+                    "score": "1",
+                    "overall": "68"
+                },
+                {
+                    "name": "Siwan",
+                    "score": "1",
+                    "overall": "16"
+                },
+                {
+                    "name": "Supaul",
+                    "score": "1",
+                    "overall": "91"
+                },
+                {
+                    "name": "Vaishali",
+                    "score": "1",
+                    "overall": "90"
+                }
+            ]
         },
         {
             "short_code": "CH",
             "name": "Chandigarh",
-            "svg_path": "chandigarh.svg"
+            "svg_path": "chandigarh.svg",
+            "score": 3,
+            "overall": 1,
+            "district": [
+                {
+                    "name": "Chandigarh",
+                    "score": "3",
+                    "overall": "90"
+                }
+            ]
         },
         {
             "short_code": "CT",
             "name": "Chhattisgarh",
-            "svg_path": "chhattisgarh.svg"
+            "svg_path": "chhattisgarh.svg",
+            "score": 4,
+            "overall": 18,
+            "district": [
+                {
+                    "name": "Bastar",
+                    "score": "2",
+                    "overall": "86"
+                },
+                {
+                    "name": "Bijapur",
+                    "score": "3",
+                    "overall": "26"
+                },
+                {
+                    "name": "Bilaspur",
+                    "score": "4",
+                    "overall": "87"
+                },
+                {
+                    "name": "Dakshin Bastar Dantewada",
+                    "score": "5",
+                    "overall": "8"
+                },
+                {
+                    "name": "Dhamtari",
+                    "score": "2",
+                    "overall": "3"
+                },
+                {
+                    "name": "Durg",
+                    "score": "2",
+                    "overall": "1"
+                },
+                {
+                    "name": "Janjgir - Champa",
+                    "score": "3",
+                    "overall": "98"
+                },
+                {
+                    "name": "Jashpur",
+                    "score": "3",
+                    "overall": "66"
+                },
+                {
+                    "name": "Kabeerdham",
+                    "score": "4",
+                    "overall": "62"
+                },
+                {
+                    "name": "Korba",
+                    "score": "1",
+                    "overall": "93"
+                },
+                {
+                    "name": "Koriya",
+                    "score": "1",
+                    "overall": "69"
+                },
+                {
+                    "name": "Mahasamund",
+                    "score": "1",
+                    "overall": "86"
+                },
+                {
+                    "name": "Narayanpur",
+                    "score": "5",
+                    "overall": "64"
+                },
+                {
+                    "name": "Raigarh",
+                    "score": "5",
+                    "overall": "9"
+                },
+                {
+                    "name": "Raipur",
+                    "score": "2",
+                    "overall": "55"
+                },
+                {
+                    "name": "Rajnandgaon",
+                    "score": "1",
+                    "overall": "64"
+                },
+                {
+                    "name": "Surguja",
+                    "score": "3",
+                    "overall": "56"
+                },
+                {
+                    "name": "Uttar Bastar Kanker",
+                    "score": "2",
+                    "overall": "51"
+                }
+            ]
         },
         {
             "short_code": "DN",
             "name": "Dadra and Nagar Haveli",
-            "svg_path": "d-n-haveli.svg"
+            "svg_path": "d-n-haveli.svg",
+            "score": 2,
+            "overall": 1,
+            "district": [
+                {
+                    "name": "Dadra and Nagar Haveli",
+                    "score": "2",
+                    "overall": "51"
+                }
+            ]
         },
         {
             "short_code": "DD",
             "name": "Daman and Diu",
-            "svg_path": "daman-diu.svg"
+            "svg_path": "daman-diu.svg",
+            "score": 1,
+            "overall": 2,
+            "district": [
+                {
+                    "name": "Daman",
+                    "score": "1",
+                    "overall": "5"
+                },
+                {
+                    "name": "Diu",
+                    "score": "1",
+                    "overall": "4"
+                }
+            ]
         },
         {
             "short_code": "DL",
             "name": "Delhi",
-            "svg_path": "delhi.svg"
+            "svg_path": "delhi.svg",
+            "score": 5,
+            "overall": 9,
+            "district": [
+                {
+                    "name": "Central",
+                    "score": "3",
+                    "overall": "31"
+                },
+                {
+                    "name": "East",
+                    "score": "3",
+                    "overall": "49"
+                },
+                {
+                    "name": "New Delhi",
+                    "score": "5",
+                    "overall": "39"
+                },
+                {
+                    "name": "North",
+                    "score": "4",
+                    "overall": "52"
+                },
+                {
+                    "name": "North East",
+                    "score": "5",
+                    "overall": "39"
+                },
+                {
+                    "name": "North West",
+                    "score": "5",
+                    "overall": "7"
+                },
+                {
+                    "name": "South",
+                    "score": "5",
+                    "overall": "61"
+                },
+                {
+                    "name": "South West",
+                    "score": "5",
+                    "overall": "0"
+                },
+                {
+                    "name": "West",
+                    "score": "3",
+                    "overall": "21"
+                }
+            ]
         },
         {
             "short_code": "GA",
             "name": "Goa",
-            "svg_path": "goa.svg"
+            "svg_path": "goa.svg",
+            "score": 2,
+            "overall": 2,
+            "district": [
+                {
+                    "name": "North Goa",
+                    "score": "4",
+                    "overall": "21"
+                },
+                {
+                    "name": "South Goa",
+                    "score": "1",
+                    "overall": "33"
+                }
+            ]
         },
         {
             "short_code": "GJ",
             "name": "Gujarat",
-            "svg_path": "gujarat.svg"
+            "svg_path": "gujarat.svg",
+            "score": 3.5,
+            "overall": 26,
+            "district": [
+                {
+                    "name": "Ahmadabad",
+                    "score": "4",
+                    "overall": "20"
+                },
+                {
+                    "name": "Amreli",
+                    "score": "1",
+                    "overall": "1"
+                },
+                {
+                    "name": "Anand",
+                    "score": "2",
+                    "overall": "87"
+                },
+                {
+                    "name": "Banas Kantha",
+                    "score": "3",
+                    "overall": "51"
+                },
+                {
+                    "name": "Bharuch",
+                    "score": "4",
+                    "overall": "61"
+                },
+                {
+                    "name": "Bhavnagar",
+                    "score": "5",
+                    "overall": "15"
+                },
+                {
+                    "name": "Dohad",
+                    "score": "1",
+                    "overall": "48"
+                },
+                {
+                    "name": "Gandhinagar",
+                    "score": "4",
+                    "overall": "49"
+                },
+                {
+                    "name": "Jamnagar",
+                    "score": "1",
+                    "overall": "36"
+                },
+                {
+                    "name": "Junagadh",
+                    "score": "2",
+                    "overall": "38"
+                },
+                {
+                    "name": "Kachchh",
+                    "score": "3",
+                    "overall": "30"
+                },
+                {
+                    "name": "Kheda",
+                    "score": "3",
+                    "overall": "17"
+                },
+                {
+                    "name": "Mahesana",
+                    "score": "4",
+                    "overall": "9"
+                },
+                {
+                    "name": "Narmada",
+                    "score": "4",
+                    "overall": "83"
+                },
+                {
+                    "name": "Navsari",
+                    "score": "4",
+                    "overall": "84"
+                },
+                {
+                    "name": "Panch Mahals",
+                    "score": "1",
+                    "overall": "72"
+                },
+                {
+                    "name": "Patan",
+                    "score": "1",
+                    "overall": "68"
+                },
+                {
+                    "name": "Porbandar",
+                    "score": "1",
+                    "overall": "77"
+                },
+                {
+                    "name": "Rajkot",
+                    "score": "3",
+                    "overall": "39"
+                },
+                {
+                    "name": "Sabar Kantha",
+                    "score": "2",
+                    "overall": "73"
+                },
+                {
+                    "name": "Surat",
+                    "score": "5",
+                    "overall": "6"
+                },
+                {
+                    "name": "Surendranagar",
+                    "score": "5",
+                    "overall": "79"
+                },
+                {
+                    "name": "Tapi",
+                    "score": "1",
+                    "overall": "83"
+                },
+                {
+                    "name": "The Dangs",
+                    "score": "2",
+                    "overall": "10"
+                },
+                {
+                    "name": "Vadadora",
+                    "score": "2",
+                    "overall": "96"
+                },
+                {
+                    "name": "Valsad",
+                    "score": "2",
+                    "overall": "59"
+                }
+            ]
         },
         {
             "short_code": "HR",
             "name": "Haryana",
-            "svg_path": "haryana.svg"
+            "svg_path": "haryana.svg",
+            "score": 4,
+            "overall": 21,
+            "district": [
+                {
+                    "name": "Ambala",
+                    "score": "1",
+                    "overall": "14"
+                },
+                {
+                    "name": "Bhiwani",
+                    "score": "2",
+                    "overall": "61"
+                },
+                {
+                    "name": "Faridabad",
+                    "score": "1",
+                    "overall": "61"
+                },
+                {
+                    "name": "Fatehabad",
+                    "score": "3",
+                    "overall": "99"
+                },
+                {
+                    "name": "Gurgaon",
+                    "score": "4",
+                    "overall": "7"
+                },
+                {
+                    "name": "Hisar",
+                    "score": "2",
+                    "overall": "32"
+                },
+                {
+                    "name": "Jhajjar",
+                    "score": "4",
+                    "overall": "59"
+                },
+                {
+                    "name": "Jind",
+                    "score": "5",
+                    "overall": "62"
+                },
+                {
+                    "name": "Kaithal",
+                    "score": "1",
+                    "overall": "47"
+                },
+                {
+                    "name": "Karnal",
+                    "score": "2",
+                    "overall": "25"
+                },
+                {
+                    "name": "Kurukshetra",
+                    "score": "5",
+                    "overall": "71"
+                },
+                {
+                    "name": "Mahendragarh",
+                    "score": "1",
+                    "overall": "79"
+                },
+                {
+                    "name": "Mewat",
+                    "score": "1",
+                    "overall": "14"
+                },
+                {
+                    "name": "Palwal",
+                    "score": "2",
+                    "overall": "64"
+                },
+                {
+                    "name": "Panchkula",
+                    "score": "4",
+                    "overall": "54"
+                },
+                {
+                    "name": "Panipat",
+                    "score": "3",
+                    "overall": "99"
+                },
+                {
+                    "name": "Rewari",
+                    "score": "2",
+                    "overall": "35"
+                },
+                {
+                    "name": "Rohtak",
+                    "score": "3",
+                    "overall": "95"
+                },
+                {
+                    "name": "Sirsa",
+                    "score": "1",
+                    "overall": "70"
+                },
+                {
+                    "name": "Sonipat",
+                    "score": "1",
+                    "overall": "71"
+                },
+                {
+                    "name": "Yamunanagar",
+                    "score": "1",
+                    "overall": "6"
+                }
+            ]
         },
         {
             "short_code": "HP",
             "name": "Himachal Pradesh",
-            "svg_path": "himachal-pradesh.svg"
+            "svg_path": "himachal-pradesh.svg",
+            "score": 2,
+            "overall": 12,
+            "district": [
+                {
+                    "name": "Bilaspur",
+                    "score": "2",
+                    "overall": "87"
+                },
+                {
+                    "name": "Chamba",
+                    "score": "2",
+                    "overall": "33"
+                },
+                {
+                    "name": "Hamirpur",
+                    "score": "1",
+                    "overall": "39"
+                },
+                {
+                    "name": "Kangra",
+                    "score": "3",
+                    "overall": "21"
+                },
+                {
+                    "name": "Kinnaur",
+                    "score": "4",
+                    "overall": "59"
+                },
+                {
+                    "name": "Kullu",
+                    "score": "4",
+                    "overall": "78"
+                },
+                {
+                    "name": "Lahul & Spiti",
+                    "score": "1",
+                    "overall": "8"
+                },
+                {
+                    "name": "Mandi",
+                    "score": "1",
+                    "overall": "33"
+                },
+                {
+                    "name": "Shimla",
+                    "score": "2",
+                    "overall": "10"
+                },
+                {
+                    "name": "Sirmaur",
+                    "score": "2",
+                    "overall": "73"
+                },
+                {
+                    "name": "Solan",
+                    "score": "3",
+                    "overall": "45"
+                },
+                {
+                    "name": "Una",
+                    "score": "1",
+                    "overall": "83"
+                }
+            ]
         },
         {
             "short_code": "JK",
             "name": "Jammu and Kashmir",
-            "svg_path": "jammu-kashmir.svg"
+            "svg_path": "jammu-kashmir.svg",
+            "score": 3.5,
+            "overall": 23,
+            "district": [
+                {
+                    "name": "Bilaspur",
+                    "score": "2",
+                    "overall": "87"
+                },
+                {
+                    "name": "Anantnag",
+                    "score": "1",
+                    "overall": "46"
+                },
+                {
+                    "name": "Badgam",
+                    "score": "2",
+                    "overall": "1"
+                },
+                {
+                    "name": "Bandipore",
+                    "score": "2",
+                    "overall": "59"
+                },
+                {
+                    "name": "Baramula",
+                    "score": "3",
+                    "overall": "55"
+                },
+                {
+                    "name": "Doda",
+                    "score": "4",
+                    "overall": "63"
+                },
+                {
+                    "name": "Ganderbal",
+                    "score": "2",
+                    "overall": "72"
+                },
+                {
+                    "name": "Jammu",
+                    "score": "3",
+                    "overall": "67"
+                },
+                {
+                    "name": "Kargil",
+                    "score": "1",
+                    "overall": "35"
+                },
+                {
+                    "name": "Kathua",
+                    "score": "2",
+                    "overall": "95"
+                },
+                {
+                    "name": "Kishtwar",
+                    "score": "4",
+                    "overall": "72"
+                },
+                {
+                    "name": "Kulgam",
+                    "score": "4",
+                    "overall": "25"
+                },
+                {
+                    "name": "Kupwara",
+                    "score": "2",
+                    "overall": "35"
+                },
+                {
+                    "name": "Leh (Ladakh)",
+                    "score": "5",
+                    "overall": "36"
+                },
+                {
+                    "name": "Pulwama",
+                    "score": "1",
+                    "overall": "66"
+                },
+                {
+                    "name": "Punch",
+                    "score": "2",
+                    "overall": "47"
+                },
+                {
+                    "name": "Rajouri",
+                    "score": "1",
+                    "overall": "55"
+                },
+                {
+                    "name": "Ramban",
+                    "score": "3",
+                    "overall": "87"
+                },
+                {
+                    "name": "Reasi",
+                    "score": "4",
+                    "overall": "73"
+                },
+                {
+                    "name": "Samba",
+                    "score": "3",
+                    "overall": "46"
+                },
+                {
+                    "name": "Shupiyan",
+                    "score": "1",
+                    "overall": "8"
+                },
+                {
+                    "name": "Srinagar",
+                    "score": "4",
+                    "overall": "15"
+                },
+                {
+                    "name": "Udhampur",
+                    "score": "3",
+                    "overall": "70"
+                }
+            ]
         },
         {
             "short_code": "JH",
             "name": "Jharkhand",
-            "svg_path": "jharkhand.svg"
+            "svg_path": "jharkhand.svg",
+            "score": 2,
+            "overall": 24,
+            "district": [
+                {
+                    "name": "Bokaro",
+                    "score": "2",
+                    "overall": "84"
+                },
+                {
+                    "name": "Chatra",
+                    "score": "2",
+                    "overall": "72"
+                },
+                {
+                    "name": "Deoghar",
+                    "score": "3",
+                    "overall": "65"
+                },
+                {
+                    "name": "Dhanbad",
+                    "score": "3",
+                    "overall": "7"
+                },
+                {
+                    "name": "Dumka",
+                    "score": "1",
+                    "overall": "76"
+                },
+                {
+                    "name": "Garhwa",
+                    "score": "1",
+                    "overall": "46"
+                },
+                {
+                    "name": "Giridih",
+                    "score": "1",
+                    "overall": "11"
+                },
+                {
+                    "name": "Godda",
+                    "score": "2",
+                    "overall": "3"
+                },
+                {
+                    "name": "Gumla",
+                    "score": "2",
+                    "overall": "8"
+                },
+                {
+                    "name": "Hazaribagh",
+                    "score": "4",
+                    "overall": "52"
+                },
+                {
+                    "name": "Jamtara",
+                    "score": "3",
+                    "overall": "17"
+                },
+                {
+                    "name": "Khunti",
+                    "score": "5",
+                    "overall": "17"
+                },
+                {
+                    "name": "Kodarma",
+                    "score": "2",
+                    "overall": "67"
+                },
+                {
+                    "name": "Latehar",
+                    "score": "3",
+                    "overall": "14"
+                },
+                {
+                    "name": "Lohardaga",
+                    "score": "1",
+                    "overall": "45"
+                },
+                {
+                    "name": "Pakur",
+                    "score": "2",
+                    "overall": "39"
+                },
+                {
+                    "name": "Palamu",
+                    "score": "2",
+                    "overall": "79"
+                },
+                {
+                    "name": "Paschimi Singhbhum",
+                    "score": "3",
+                    "overall": "98"
+                },
+                {
+                    "name": "Purbi Singhbhum",
+                    "score": "2",
+                    "overall": "90"
+                },
+                {
+                    "name": "Ramgarh",
+                    "score": "4",
+                    "overall": "30"
+                },
+                {
+                    "name": "Ranchi",
+                    "score": "1",
+                    "overall": "99"
+                },
+                {
+                    "name": "Sahibganj",
+                    "score": "5",
+                    "overall": "88"
+                },
+                {
+                    "name": "Saraikela-Kharsawan",
+                    "score": "1",
+                    "overall": "49"
+                },
+                {
+                    "name": "Simdega",
+                    "score": "2",
+                    "overall": "1"
+                }
+            ]
         },
         {
             "short_code": "KA",
             "name": "Karnataka",
-            "svg_path": "karnataka.svg"
+            "svg_path": "karnataka.svg",
+            "score": 4.1,
+            "overall": 30,
+            "district": [
+                {
+                    "name": "Bagalkot",
+                    "score": "2",
+                    "overall": "71"
+                },
+                {
+                    "name": "Bangalore",
+                    "score": "5",
+                    "overall": "92"
+                },
+                {
+                    "name": "Bangalore Rural",
+                    "score": "4",
+                    "overall": "4"
+                },
+                {
+                    "name": "Belgaum",
+                    "score": "4",
+                    "overall": "56"
+                },
+                {
+                    "name": "Bellary",
+                    "score": "1",
+                    "overall": "43"
+                },
+                {
+                    "name": "Bidar",
+                    "score": "2",
+                    "overall": "91"
+                },
+                {
+                    "name": "Bijapur",
+                    "score": "1",
+                    "overall": "73"
+                },
+                {
+                    "name": "Chamarajanagar",
+                    "score": "1",
+                    "overall": "54"
+                },
+                {
+                    "name": "Chikkaballapura",
+                    "score": "3",
+                    "overall": "40"
+                },
+                {
+                    "name": "Chikmagalur",
+                    "score": "2",
+                    "overall": "88"
+                },
+                {
+                    "name": "Chitradurga",
+                    "score": "3",
+                    "overall": "59"
+                },
+                {
+                    "name": "Dakshina Kannada",
+                    "score": "4",
+                    "overall": "16"
+                },
+                {
+                    "name": "Davanagere",
+                    "score": "1",
+                    "overall": "96"
+                },
+                {
+                    "name": "Dharwad",
+                    "score": "1",
+                    "overall": "34"
+                },
+                {
+                    "name": "Gadag",
+                    "score": "2",
+                    "overall": "84"
+                },
+                {
+                    "name": "Gulbarga",
+                    "score": "2",
+                    "overall": "54"
+                },
+                {
+                    "name": "Hassan",
+                    "score": "4",
+                    "overall": "48"
+                },
+                {
+                    "name": "Haveri",
+                    "score": "5",
+                    "overall": "86"
+                },
+                {
+                    "name": "Kodagu",
+                    "score": "1",
+                    "overall": "63"
+                },
+                {
+                    "name": "Kolar",
+                    "score": "2",
+                    "overall": "22"
+                },
+                {
+                    "name": "Koppal",
+                    "score": "3",
+                    "overall": "37"
+                },
+                {
+                    "name": "Mandya",
+                    "score": "1",
+                    "overall": "82"
+                },
+                {
+                    "name": "Mysore",
+                    "score": "1",
+                    "overall": "33"
+                },
+                {
+                    "name": "Raichur",
+                    "score": "2",
+                    "overall": "82"
+                },
+                {
+                    "name": "Ramanagara",
+                    "score": "4",
+                    "overall": "90"
+                },
+                {
+                    "name": "Shimoga",
+                    "score": "3",
+                    "overall": "50"
+                },
+                {
+                    "name": "Tumkur",
+                    "score": "2",
+                    "overall": "39"
+                },
+                {
+                    "name": "Udupi",
+                    "score": "1",
+                    "overall": "88"
+                },
+                {
+                    "name": "Uttara Kannada",
+                    "score": "2",
+                    "overall": "83"
+                },
+                {
+                    "name": "Yadgir",
+                    "score": "1",
+                    "overall": "22"
+                }
+            ]
         },
         {
             "short_code": "KL",
             "name": "Kerala",
-            "svg_path": "kerala.svg"
+            "svg_path": "kerala.svg",
+            "score": 4,
+            "overall": 14,
+            "district": [
+                {
+                    "name": "Alappuzha",
+                    "score": "4",
+                    "overall": "90"
+                },
+                {
+                    "name": "Ernakulam",
+                    "score": "5",
+                    "overall": "10"
+                },
+                {
+                    "name": "Idukki",
+                    "score": "3",
+                    "overall": "77"
+                },
+                {
+                    "name": "Kannur",
+                    "score": "4",
+                    "overall": "11"
+                },
+                {
+                    "name": "Kasargod",
+                    "score": "3",
+                    "overall": "80"
+                },
+                {
+                    "name": "Kollam",
+                    "score": "5",
+                    "overall": "55"
+                },
+                {
+                    "name": "Kottayam",
+                    "score": "4",
+                    "overall": "35"
+                },
+                {
+                    "name": "Kozhikode",
+                    "score": "5",
+                    "overall": "91"
+                },
+                {
+                    "name": "Malappuram",
+                    "score": "4",
+                    "overall": "38"
+                },
+                {
+                    "name": "Palakkad",
+                    "score": "5",
+                    "overall": "73"
+                },
+                {
+                    "name": "Pathanarothitta",
+                    "score": "3",
+                    "overall": "54"
+                },
+                {
+                    "name": "Thiruvananthapuram",
+                    "score": "5",
+                    "overall": "96"
+                },
+                {
+                    "name": "Thrissur",
+                    "score": "2",
+                    "overall": "89"
+                },
+                {
+                    "name": "Wayanad",
+                    "score": "1",
+                    "overall": "28"
+                }
+            ]
         },
         {
             "short_code": "LD",
             "name": "Lakshadweep",
-            "svg_path": "lakshadweep.svg"
+            "svg_path": "lakshadweep.svg",
+            "score": 1,
+            "overall": 12,
+            "district": [
+                {
+                    "name": "Lakshadweep",
+                    "score": "1",
+                    "overall": "28"
+                }
+            ]
         },
         {
             "short_code": "MP",
             "name": "Madhya Pradesh",
-            "svg_path": "madhya-pradesh.svg"
+            "svg_path": "madhya-pradesh.svg",
+            "score": 4,
+            "overall": 50,
+            "district": [
+                {
+                    "name": "Alirajpur",
+                    "score": "1",
+                    "overall": "86"
+                },
+                {
+                    "name": "Anuppur",
+                    "score": "2",
+                    "overall": "98"
+                },
+                {
+                    "name": "Ashoknagar",
+                    "score": "3",
+                    "overall": "90"
+                },
+                {
+                    "name": "Balaghat",
+                    "score": "1",
+                    "overall": "34"
+                },
+                {
+                    "name": "Barwani",
+                    "score": "1",
+                    "overall": "93"
+                },
+                {
+                    "name": "Betul",
+                    "score": "2",
+                    "overall": "16"
+                },
+                {
+                    "name": "Bhind",
+                    "score": "2",
+                    "overall": "77"
+                },
+                {
+                    "name": "Bhopal",
+                    "score": "3",
+                    "overall": "37"
+                },
+                {
+                    "name": "Burhanpur",
+                    "score": "4",
+                    "overall": "69"
+                },
+                {
+                    "name": "Chhatarpur",
+                    "score": "4",
+                    "overall": "50"
+                },
+                {
+                    "name": "Chhindwara",
+                    "score": "1",
+                    "overall": "70"
+                },
+                {
+                    "name": "Damoh",
+                    "score": "1",
+                    "overall": "67"
+                },
+                {
+                    "name": "Datia",
+                    "score": "1",
+                    "overall": "8"
+                },
+                {
+                    "name": "Dewas",
+                    "score": "2",
+                    "overall": "41"
+                },
+                {
+                    "name": "Dhar",
+                    "score": "2",
+                    "overall": "80"
+                },
+                {
+                    "name": "Dindori",
+                    "score": "2",
+                    "overall": "55"
+                },
+                {
+                    "name": "East Nimar",
+                    "score": "2",
+                    "overall": "32"
+                },
+                {
+                    "name": "Guna",
+                    "score": "3",
+                    "overall": "95"
+                },
+                {
+                    "name": "Gwalior",
+                    "score": "3",
+                    "overall": "66"
+                },
+                {
+                    "name": "Harda",
+                    "score": "5",
+                    "overall": "46"
+                },
+                {
+                    "name": "Hoshangabad",
+                    "score": "1",
+                    "overall": "98"
+                },
+                {
+                    "name": "Indore",
+                    "score": "5",
+                    "overall": "42"
+                },
+                {
+                    "name": "Jabalpur",
+                    "score": "1",
+                    "overall": "60"
+                },
+                {
+                    "name": "Jhabua",
+                    "score": "2",
+                    "overall": "10"
+                },
+                {
+                    "name": "Katni",
+                    "score": "3",
+                    "overall": "1"
+                },
+                {
+                    "name": "Mandla",
+                    "score": "1",
+                    "overall": "44"
+                },
+                {
+                    "name": "Mandsaur",
+                    "score": "2",
+                    "overall": "50"
+                },
+                {
+                    "name": "Morena",
+                    "score": "3",
+                    "overall": "93"
+                },
+                {
+                    "name": "Narsimhapur",
+                    "score": "1",
+                    "overall": "34"
+                },
+                {
+                    "name": "Neemuch",
+                    "score": "3",
+                    "overall": "7"
+                },
+                {
+                    "name": "Panna",
+                    "score": "1",
+                    "overall": "44"
+                },
+                {
+                    "name": "Raisen",
+                    "score": "2",
+                    "overall": "38"
+                },
+                {
+                    "name": "Rajgarh",
+                    "score": "5",
+                    "overall": "79"
+                },
+                {
+                    "name": "Ratlam",
+                    "score": "4",
+                    "overall": "55"
+                },
+                {
+                    "name": "Rewa",
+                    "score": "5",
+                    "overall": "37"
+                },
+                {
+                    "name": "Sagar",
+                    "score": "4",
+                    "overall": "40"
+                },
+                {
+                    "name": "Satna",
+                    "score": "3",
+                    "overall": "37"
+                },
+                {
+                    "name": "Sehore",
+                    "score": "2",
+                    "overall": "49"
+                },
+                {
+                    "name": "Seoni",
+                    "score": "1",
+                    "overall": "9"
+                },
+                {
+                    "name": "Shahdol",
+                    "score": "3",
+                    "overall": "10"
+                },
+                {
+                    "name": "Shajapur",
+                    "score": "1",
+                    "overall": "98"
+                },
+                {
+                    "name": "Sheopur",
+                    "score": "4",
+                    "overall": "83"
+                },
+                {
+                    "name": "Shivpuri",
+                    "score": "1",
+                    "overall": "80"
+                },
+                {
+                    "name": "Sidhi",
+                    "score": "2",
+                    "overall": "36"
+                },
+                {
+                    "name": "Singrauli",
+                    "score": "2",
+                    "overall": "9"
+                },
+                {
+                    "name": "Tikamgarh",
+                    "score": "3",
+                    "overall": "65"
+                },
+                {
+                    "name": "Ujjain",
+                    "score": "2",
+                    "overall": "64"
+                },
+                {
+                    "name": "Umaria",
+                    "score": "2",
+                    "overall": "60"
+                },
+                {
+                    "name": "Vidisha",
+                    "score": "1",
+                    "overall": "89"
+                },
+                {
+                    "name": "West Nimar",
+                    "score": "2",
+                    "overall": "66"
+                }
+            ]
         },
         {
             "short_code": "MH",
             "name": "Maharashtra",
-            "svg_path": "maharashtra.svg"
+            "svg_path": "maharashtra.svg",
+            "score": 5,
+            "overall": 35,
+            "district": [
+                {
+                    "name": "Ahmadnagar",
+                    "score": "3",
+                    "overall": "98"
+                },
+                {
+                    "name": "Akola",
+                    "score": "2",
+                    "overall": "70"
+                },
+                {
+                    "name": "Amravati",
+                    "score": "3",
+                    "overall": "80"
+                },
+                {
+                    "name": "Aurangabad",
+                    "score": "1",
+                    "overall": "9"
+                },
+                {
+                    "name": "Bhandara",
+                    "score": "2",
+                    "overall": "98"
+                },
+                {
+                    "name": "Bid",
+                    "score": "2",
+                    "overall": "60"
+                },
+                {
+                    "name": "Buldana",
+                    "score": "1",
+                    "overall": "64"
+                },
+                {
+                    "name": "Chandrapur",
+                    "score": "2",
+                    "overall": "13"
+                },
+                {
+                    "name": "Dhule",
+                    "score": "1",
+                    "overall": "7"
+                },
+                {
+                    "name": "Gadchiroli",
+                    "score": "2",
+                    "overall": "37"
+                },
+                {
+                    "name": "Gondiya",
+                    "score": "2",
+                    "overall": "60"
+                },
+                {
+                    "name": "Hingoli",
+                    "score": "2",
+                    "overall": "94"
+                },
+                {
+                    "name": "Jaina",
+                    "score": "1",
+                    "overall": "50"
+                },
+                {
+                    "name": "Jalgaon",
+                    "score": "2",
+                    "overall": "100"
+                },
+                {
+                    "name": "Kolhapur",
+                    "score": "1",
+                    "overall": "41"
+                },
+                {
+                    "name": "Latur",
+                    "score": "3",
+                    "overall": "88"
+                },
+                {
+                    "name": "Mumbai",
+                    "score": "5",
+                    "overall": "37"
+                },
+                {
+                    "name": "Mumbai Suburban",
+                    "score": "5",
+                    "overall": "33"
+                },
+                {
+                    "name": "Nagpur",
+                    "score": "5",
+                    "overall": "50"
+                },
+                {
+                    "name": "Nanded",
+                    "score": "2",
+                    "overall": "32"
+                },
+                {
+                    "name": "Nandurbar",
+                    "score": "1",
+                    "overall": "92"
+                },
+                {
+                    "name": "Nashik",
+                    "score": "5",
+                    "overall": "92"
+                },
+                {
+                    "name": "Osmanabad",
+                    "score": "2",
+                    "overall": "0"
+                },
+                {
+                    "name": "Parbhani",
+                    "score": "2",
+                    "overall": "70"
+                },
+                {
+                    "name": "Pune",
+                    "score": "5",
+                    "overall": "78"
+                },
+                {
+                    "name": "Raigarh",
+                    "score": "3",
+                    "overall": "15"
+                },
+                {
+                    "name": "Ratnagiri",
+                    "score": "2",
+                    "overall": "14"
+                },
+                {
+                    "name": "Sangli",
+                    "score": "5",
+                    "overall": "59"
+                },
+                {
+                    "name": "Satara",
+                    "score": "1",
+                    "overall": "25"
+                },
+                {
+                    "name": "Sindhugurg",
+                    "score": "2",
+                    "overall": "75"
+                },
+                {
+                    "name": "Solapur",
+                    "score": "2",
+                    "overall": "46"
+                },
+                {
+                    "name": "Thane",
+                    "score": "5",
+                    "overall": "8"
+                },
+                {
+                    "name": "Wardha",
+                    "score": "3",
+                    "overall": "74"
+                },
+                {
+                    "name": "Washim",
+                    "score": "2",
+                    "overall": "97"
+                },
+                {
+                    "name": "Yavatmal",
+                    "score": "3",
+                    "overall": "20"
+                }
+            ]
         },
         {
             "short_code": "MN",
             "name": "Manipur",
-            "svg_path": "manipur.svg"
+            "svg_path": "manipur.svg",
+            "score": 2,
+            "overall": 9,
+            "district": [
+                {
+                    "name": "Bishnupur",
+                    "score": "2",
+                    "overall": "98"
+                },
+                {
+                    "name": "Chandel",
+                    "score": "1",
+                    "overall": "59"
+                },
+                {
+                    "name": "Churachandpur",
+                    "score": "2",
+                    "overall": "25"
+                },
+                {
+                    "name": "Imphal East",
+                    "score": "4",
+                    "overall": "75"
+                },
+                {
+                    "name": "Imphal West",
+                    "score": "5",
+                    "overall": "95"
+                },
+                {
+                    "name": "Senapati",
+                    "score": "1",
+                    "overall": "10"
+                },
+                {
+                    "name": "Tamenglong",
+                    "score": "1",
+                    "overall": "68"
+                },
+                {
+                    "name": "Thoubal",
+                    "score": "1",
+                    "overall": "53"
+                },
+                {
+                    "name": "Ukhrul",
+                    "score": "2",
+                    "overall": "53"
+                }
+            ]
         },
         {
             "short_code": "ML",
             "name": "Meghalaya",
-            "svg_path": "meghalaya.svg"
+            "svg_path": "meghalaya.svg",
+            "score": 1,
+            "overall": 7,
+            "district": [
+                {
+                    "name": "East Garo Hills",
+                    "score": "2",
+                    "overall": "92"
+                },
+                {
+                    "name": "East Khasi Hills",
+                    "score": "1",
+                    "overall": "6"
+                },
+                {
+                    "name": "Jaintia Hills",
+                    "score": "1",
+                    "overall": "17"
+                },
+                {
+                    "name": "Ri Bhoi",
+                    "score": "1",
+                    "overall": "96"
+                },
+                {
+                    "name": "South Garo Hills",
+                    "score": "2",
+                    "overall": "60"
+                },
+                {
+                    "name": "West Garo Hills",
+                    "score": "1",
+                    "overall": "64"
+                },
+                {
+                    "name": "West Khasi Hills",
+                    "score": "1",
+                    "overall": "81"
+                }
+            ]
         },
         {
             "short_code": "MZ",
             "name": "Mizoram",
-            "svg_path": "mizoram.svg"
+            "svg_path": "mizoram.svg",
+            "score": 2,
+            "overall": 8,
+            "district": [
+                {
+                    "name": "Aizawl",
+                    "score": "1",
+                    "overall": "45"
+                },
+                {
+                    "name": "Champhai",
+                    "score": "2",
+                    "overall": "9"
+                },
+                {
+                    "name": "Kolasib",
+                    "score": "3",
+                    "overall": "36"
+                },
+                {
+                    "name": "Lawngtlai",
+                    "score": "1",
+                    "overall": "42"
+                },
+                {
+                    "name": "Lunglei",
+                    "score": "2",
+                    "overall": "86"
+                },
+                {
+                    "name": "Mamit",
+                    "score": "1",
+                    "overall": "30"
+                },
+                {
+                    "name": "Saiha",
+                    "score": "3",
+                    "overall": "2"
+                },
+                {
+                    "name": "Serchhip",
+                    "score": "1",
+                    "overall": "18"
+                }
+            ]
         },
         {
             "short_code": "NL",
             "name": "Nagaland",
-            "svg_path": "nagaland.svg"
+            "svg_path": "nagaland.svg",
+            "score": 1,
+            "overall": 11,
+            "district": [
+                {
+                    "name": "Dimapur",
+                    "score": "1",
+                    "overall": "8"
+                },
+                {
+                    "name": "Kiphire",
+                    "score": "2",
+                    "overall": "90"
+                },
+                {
+                    "name": "Kohima",
+                    "score": "2",
+                    "overall": "19"
+                },
+                {
+                    "name": "Longleng",
+                    "score": "1",
+                    "overall": "57"
+                },
+                {
+                    "name": "Mokokchung",
+                    "score": "1",
+                    "overall": "97"
+                },
+                {
+                    "name": "Mon",
+                    "score": "1",
+                    "overall": "76"
+                },
+                {
+                    "name": "Peren",
+                    "score": "3",
+                    "overall": "29"
+                },
+                {
+                    "name": "Phek",
+                    "score": "1",
+                    "overall": "64"
+                },
+                {
+                    "name": "Tuensang",
+                    "score": "1",
+                    "overall": "36"
+                },
+                {
+                    "name": "Wokha",
+                    "score": "2",
+                    "overall": "69"
+                },
+                {
+                    "name": "Zunheboto",
+                    "score": "2",
+                    "overall": "51"
+                }
+            ]
         },
         {
             "short_code": "OR",
             "name": "Odisha",
-            "svg_path": "odisha.svg"
+            "svg_path": "odisha.svg",
+            "score": 3,
+            "overall": 30,
+            "district": [
+                {
+                    "name": "Anugul",
+                    "score": "2",
+                    "overall": "73"
+                },
+                {
+                    "name": "Balangir",
+                    "score": "3",
+                    "overall": "32"
+                },
+                {
+                    "name": "Baleshwar",
+                    "score": "1",
+                    "overall": "1"
+                },
+                {
+                    "name": "Bargarh",
+                    "score": "1",
+                    "overall": "75"
+                },
+                {
+                    "name": "Baudh",
+                    "score": "2",
+                    "overall": "77"
+                },
+                {
+                    "name": "Bhadrak",
+                    "score": "3",
+                    "overall": "49"
+                },
+                {
+                    "name": "Cuttack",
+                    "score": "2",
+                    "overall": "76"
+                },
+                {
+                    "name": "Debagarh",
+                    "score": "3",
+                    "overall": "5"
+                },
+                {
+                    "name": "Dhenkanal",
+                    "score": "1",
+                    "overall": "9"
+                },
+                {
+                    "name": "Gajapati",
+                    "score": "1",
+                    "overall": "84"
+                },
+                {
+                    "name": "Ganjam",
+                    "score": "1",
+                    "overall": "95"
+                },
+                {
+                    "name": "Jagatsinghapur",
+                    "score": "4",
+                    "overall": "15"
+                },
+                {
+                    "name": "Jajapur",
+                    "score": "1",
+                    "overall": "33"
+                },
+                {
+                    "name": "Jharsuguda",
+                    "score": "2",
+                    "overall": "91"
+                },
+                {
+                    "name": "Kalahandi",
+                    "score": "5",
+                    "overall": "82"
+                },
+                {
+                    "name": "Kandhamal",
+                    "score": "2",
+                    "overall": "88"
+                },
+                {
+                    "name": "Kendrapara",
+                    "score": "1",
+                    "overall": "83"
+                },
+                {
+                    "name": "Kendujhar",
+                    "score": "3",
+                    "overall": "45"
+                },
+                {
+                    "name": "Khordha",
+                    "score": "2",
+                    "overall": "49"
+                },
+                {
+                    "name": "Koraput",
+                    "score": "2",
+                    "overall": "6"
+                },
+                {
+                    "name": "Malkangiri",
+                    "score": "5",
+                    "overall": "56"
+                },
+                {
+                    "name": "Mayurbhanj",
+                    "score": "4",
+                    "overall": "77"
+                },
+                {
+                    "name": "Nabarangapur",
+                    "score": "3",
+                    "overall": "51"
+                },
+                {
+                    "name": "Nayagarh",
+                    "score": "1",
+                    "overall": "6"
+                },
+                {
+                    "name": "Nuapada",
+                    "score": "2",
+                    "overall": "64"
+                },
+                {
+                    "name": "Puri",
+                    "score": "3",
+                    "overall": "49"
+                },
+                {
+                    "name": "Rayagada",
+                    "score": "2",
+                    "overall": "5"
+                },
+                {
+                    "name": "Sambalpur",
+                    "score": "1",
+                    "overall": "50"
+                },
+                {
+                    "name": "Subarnapur",
+                    "score": "1",
+                    "overall": "79"
+                },
+                {
+                    "name": "Sundargarh",
+                    "score": "2",
+                    "overall": "89"
+                }
+            ]
         },
         {
             "short_code": "PY",
             "name": "Puducherry",
-            "svg_path": "puducherry.svg"
+            "svg_path": "puducherry.svg",
+            "score": 2,
+            "overall": 4,
+            "district": [
+                {
+                    "name": "Karaikal",
+                    "score": "2",
+                    "overall": "85"
+                },
+                {
+                    "name": "Mahe",
+                    "score": "1",
+                    "overall": "21"
+                },
+                {
+                    "name": "Pondicherry",
+                    "score": "3",
+                    "overall": "82"
+                },
+                {
+                    "name": "Yanam",
+                    "score": "1",
+                    "overall": "2"
+                }
+            ]
         },
         {
             "short_code": "PB",
             "name": "Punjab",
-            "svg_path": "punjab.svg"
+            "svg_path": "punjab.svg",
+            "score": 3,
+            "overall": 20,
+            "district": [
+                {
+                    "name": "Amritsar",
+                    "score": "4",
+                    "overall": "14"
+                },
+                {
+                    "name": "Barnala",
+                    "score": "2",
+                    "overall": "58"
+                },
+                {
+                    "name": "Bathinda",
+                    "score": "1",
+                    "overall": "13"
+                },
+                {
+                    "name": "Faridkot",
+                    "score": "2",
+                    "overall": "66"
+                },
+                {
+                    "name": "Fatehgarh Sahib",
+                    "score": "1",
+                    "overall": "77"
+                },
+                {
+                    "name": "Firozpur",
+                    "score": "2",
+                    "overall": "75"
+                },
+                {
+                    "name": "Gurdaspur",
+                    "score": "3",
+                    "overall": "28"
+                },
+                {
+                    "name": "Hoshiarpur",
+                    "score": "2",
+                    "overall": "76"
+                },
+                {
+                    "name": "Jalandhar",
+                    "score": "5",
+                    "overall": "91"
+                },
+                {
+                    "name": "Kapurthala",
+                    "score": "1",
+                    "overall": "47"
+                },
+                {
+                    "name": "Ludhiana",
+                    "score": "2",
+                    "overall": "61"
+                },
+                {
+                    "name": "Mansa",
+                    "score": "4",
+                    "overall": "57"
+                },
+                {
+                    "name": "Moga",
+                    "score": "2",
+                    "overall": "61"
+                },
+                {
+                    "name": "Muktsar",
+                    "score": "1",
+                    "overall": "48"
+                },
+                {
+                    "name": "Patiala",
+                    "score": "4",
+                    "overall": "15"
+                },
+                {
+                    "name": "Rupnagar",
+                    "score": "1",
+                    "overall": "6"
+                },
+                {
+                    "name": "SAS Nagar",
+                    "score": "2",
+                    "overall": "65"
+                },
+                {
+                    "name": "SBS Nagar",
+                    "score": "3",
+                    "overall": "59"
+                },
+                {
+                    "name": "Sangrur",
+                    "score": "1",
+                    "overall": "35"
+                },
+                {
+                    "name": "Tarn Taran",
+                    "score": "2",
+                    "overall": "91"
+                }
+            ]
         },
         {
             "short_code": "RJ",
             "name": "Rajasthan",
-            "svg_path": "rajasthan.svg"
+            "svg_path": "rajasthan.svg",
+            "score": 4,
+            "overall": 33,
+            "district": [
+                {
+                    "name": "Ajmer",
+                    "score": "4",
+                    "overall": "12"
+                },
+                {
+                    "name": "Alwar",
+                    "score": "2",
+                    "overall": "86"
+                },
+                {
+                    "name": "Banswara",
+                    "score": "1",
+                    "overall": "94"
+                },
+                {
+                    "name": "Baran",
+                    "score": "2",
+                    "overall": "83"
+                },
+                {
+                    "name": "Barmer",
+                    "score": "3",
+                    "overall": "92"
+                },
+                {
+                    "name": "Bharatpur",
+                    "score": "5",
+                    "overall": "96"
+                },
+                {
+                    "name": "Bhilwara",
+                    "score": "1",
+                    "overall": "92"
+                },
+                {
+                    "name": "Bikaner",
+                    "score": "2",
+                    "overall": "85"
+                },
+                {
+                    "name": "Bundi",
+                    "score": "3",
+                    "overall": "83"
+                },
+                {
+                    "name": "Chittaurgarh",
+                    "score": "1",
+                    "overall": "60"
+                },
+                {
+                    "name": "Churu",
+                    "score": "1",
+                    "overall": "19"
+                },
+                {
+                    "name": "Dausa",
+                    "score": "1",
+                    "overall": "57"
+                },
+                {
+                    "name": "Dhaulpur",
+                    "score": "2",
+                    "overall": "94"
+                },
+                {
+                    "name": "Dungarpur",
+                    "score": "3",
+                    "overall": "0"
+                },
+                {
+                    "name": "Ganganagar",
+                    "score": "5",
+                    "overall": "7"
+                },
+                {
+                    "name": "Hanumangarh",
+                    "score": "1",
+                    "overall": "9"
+                },
+                {
+                    "name": "Jaipur",
+                    "score": "5",
+                    "overall": "42"
+                },
+                {
+                    "name": "Jaisalmer",
+                    "score": "2",
+                    "overall": "22"
+                },
+                {
+                    "name": "Jalor",
+                    "score": "3",
+                    "overall": "54"
+                },
+                {
+                    "name": "Jhalawar",
+                    "score": "1",
+                    "overall": "64"
+                },
+                {
+                    "name": "Jhunhjunun",
+                    "score": "4",
+                    "overall": "97"
+                },
+                {
+                    "name": "Jodhpur",
+                    "score": "2",
+                    "overall": "100"
+                },
+                {
+                    "name": "Karauli",
+                    "score": "4",
+                    "overall": "5"
+                },
+                {
+                    "name": "Kota",
+                    "score": "5",
+                    "overall": "51"
+                },
+                {
+                    "name": "Nagaru",
+                    "score": "1",
+                    "overall": "84"
+                },
+                {
+                    "name": "Pali",
+                    "score": "1",
+                    "overall": "65"
+                },
+                {
+                    "name": "Pratapgarh",
+                    "score": "1",
+                    "overall": "84"
+                },
+                {
+                    "name": "Rajsamand",
+                    "score": "1",
+                    "overall": "22"
+                },
+                {
+                    "name": "Sawai Madhopur",
+                    "score": "2",
+                    "overall": "40"
+                },
+                {
+                    "name": "Sikar",
+                    "score": "1",
+                    "overall": "62"
+                },
+                {
+                    "name": "Sirohi",
+                    "score": "2",
+                    "overall": "87"
+                },
+                {
+                    "name": "Tonk",
+                    "score": "1",
+                    "overall": "35"
+                },
+                {
+                    "name": "Udaipur",
+                    "score": "5",
+                    "overall": "2"
+                }
+            ]
         },
         {
             "short_code": "SK",
             "name": "Sikkim",
-            "svg_path": "sikkim.svg"
+            "svg_path": "sikkim.svg",
+            "score": 1,
+            "overall": 4,
+            "district": [
+                {
+                    "name": "East District",
+                    "score": "2",
+                    "overall": "2"
+                },
+                {
+                    "name": "West District",
+                    "score": "1",
+                    "overall": "2"
+                },
+                {
+                    "name": "North District",
+                    "score": "2",
+                    "overall": "2"
+                },
+                {
+                    "name": "South District",
+                    "score": "1",
+                    "overall": "2"
+                }
+            ]
         },
         {
             "short_code": "TN",
             "name": "Tamil Nadu",
-            "svg_path": "tamil-nadu.svg"
-        },
-        {
-            "short_code": "TG",
-            "name": "Telangana",
-            "svg_path": "tamil-nadu.svg"
+            "svg_path": "tamil-nadu.svg",
+            "score": 5.6,
+            "overall": 32,
+            "district": [
+                {
+                    "name": "Ariyalur",
+                    "score": "2",
+                    "overall": "27"
+                },
+                {
+                    "name": "Chennai",
+                    "score": "5",
+                    "overall": "18"
+                },
+                {
+                    "name": "Coimbatore",
+                    "score": "3",
+                    "overall": "28"
+                },
+                {
+                    "name": "Cuddalore",
+                    "score": "2",
+                    "overall": "31"
+                },
+                {
+                    "name": "Dharmapuri",
+                    "score": "4",
+                    "overall": "4"
+                },
+                {
+                    "name": "Dingugul",
+                    "score": "1",
+                    "overall": "80"
+                },
+                {
+                    "name": "Erode",
+                    "score": "1",
+                    "overall": "9"
+                },
+                {
+                    "name": "Kancheepuram",
+                    "score": "4",
+                    "overall": "1"
+                },
+                {
+                    "name": "Kanniyakumari",
+                    "score": "1",
+                    "overall": "41"
+                },
+                {
+                    "name": "Karur",
+                    "score": "2",
+                    "overall": "92"
+                },
+                {
+                    "name": "Krishnagiri",
+                    "score": "1",
+                    "overall": "27"
+                },
+                {
+                    "name": "Madurai",
+                    "score": "3",
+                    "overall": "59"
+                },
+                {
+                    "name": "Nagapattinam",
+                    "score": "4",
+                    "overall": "40"
+                },
+                {
+                    "name": "Namakkal",
+                    "score": "1",
+                    "overall": "26"
+                },
+                {
+                    "name": "Perambalur",
+                    "score": "1",
+                    "overall": "87"
+                },
+                {
+                    "name": "Pudukkottai",
+                    "score": "2",
+                    "overall": "4"
+                },
+                {
+                    "name": "Ramanathapuram",
+                    "score": "1",
+                    "overall": "31"
+                },
+                {
+                    "name": "Salem",
+                    "score": "2",
+                    "overall": "73"
+                },
+                {
+                    "name": "Sivagangai",
+                    "score": "2",
+                    "overall": "83"
+                },
+                {
+                    "name": "Thanjavur",
+                    "score": "1",
+                    "overall": "11"
+                },
+                {
+                    "name": "The Nilgiris",
+                    "score": "3",
+                    "overall": "36"
+                },
+                {
+                    "name": "Theni",
+                    "score": "1",
+                    "overall": "91"
+                },
+                {
+                    "name": "Thiruvallur",
+                    "score": "3",
+                    "overall": "44"
+                },
+                {
+                    "name": "Thiruvarur",
+                    "score": "1",
+                    "overall": "19"
+                },
+                {
+                    "name": "Thoothukkudi",
+                    "score": "4",
+                    "overall": "60"
+                },
+                {
+                    "name": "Tiruchinappalli",
+                    "score": "1",
+                    "overall": "94"
+                },
+                {
+                    "name": "Tirunelveli",
+                    "score": "2",
+                    "overall": "28"
+                },
+                {
+                    "name": "Tiruppur",
+                    "score": "1",
+                    "overall": "80"
+                },
+                {
+                    "name": "Tiruvannamalai",
+                    "score": "3",
+                    "overall": "12"
+                },
+                {
+                    "name": "Vellore",
+                    "score": "2",
+                    "overall": "22"
+                },
+                {
+                    "name": "Viluppuram",
+                    "score": "1",
+                    "overall": "78"
+                },
+                {
+                    "name": "Virudhunagar",
+                    "score": "1",
+                    "overall": "62"
+                }
+            ]
         },
         {
             "short_code": "TR",
             "name": "Tripura",
-            "svg_path": "tripura.svg"
+            "svg_path": "tripura.svg",
+            "score": 2,
+            "overall": 4,
+            "district": [
+                {
+                    "name": "Dhalai",
+                    "score": "3",
+                    "overall": "27"
+                },
+                {
+                    "name": "North Tripura",
+                    "score": "3",
+                    "overall": "38"
+                },
+                {
+                    "name": "South Tripura",
+                    "score": "1",
+                    "overall": "22"
+                },
+                {
+                    "name": "West Tripura",
+                    "score": "2",
+                    "overall": "91"
+                }
+            ]
         },
         {
             "short_code": "UP",
             "name": "Uttar Pradesh",
-            "svg_path": "uttar-pradesh.svg"
+            "svg_path": "uttar-pradesh.svg",
+            "score": 4.3,
+            "overall": 71,
+            "district": [
+                {
+                    "name": "Agra",
+                    "score": "4",
+                    "overall": "10"
+                },
+                {
+                    "name": "Aligarh",
+                    "score": "4",
+                    "overall": "27"
+                },
+                {
+                    "name": "Allahabad",
+                    "score": "5",
+                    "overall": "22"
+                },
+                {
+                    "name": "Ambedkar Nagar",
+                    "score": "2",
+                    "overall": "10"
+                },
+                {
+                    "name": "Auraiya",
+                    "score": "1",
+                    "overall": "78"
+                },
+                {
+                    "name": "Azamgarh",
+                    "score": "1",
+                    "overall": "16"
+                },
+                {
+                    "name": "Baghpat",
+                    "score": "2",
+                    "overall": "40"
+                },
+                {
+                    "name": "Bahraich",
+                    "score": "1",
+                    "overall": "68"
+                },
+                {
+                    "name": "Ballia",
+                    "score": "3",
+                    "overall": "90"
+                },
+                {
+                    "name": "Balrampur",
+                    "score": "2",
+                    "overall": "59"
+                },
+                {
+                    "name": "Banda",
+                    "score": "3",
+                    "overall": "14"
+                },
+                {
+                    "name": "Bara Banki",
+                    "score": "2",
+                    "overall": "96"
+                },
+                {
+                    "name": "Bareilly",
+                    "score": "4",
+                    "overall": "0"
+                },
+                {
+                    "name": "Basti",
+                    "score": "2",
+                    "overall": "62"
+                },
+                {
+                    "name": "Bijnor",
+                    "score": "3",
+                    "overall": "58"
+                },
+                {
+                    "name": "Budaun",
+                    "score": "1",
+                    "overall": "59"
+                },
+                {
+                    "name": "Bulandshahr",
+                    "score": "1",
+                    "overall": "60"
+                },
+                {
+                    "name": "Chandraili",
+                    "score": "2",
+                    "overall": "69"
+                },
+                {
+                    "name": "Chitrakoot",
+                    "score": "3",
+                    "overall": "38"
+                },
+                {
+                    "name": "Deoria",
+                    "score": "2",
+                    "overall": "50"
+                },
+                {
+                    "name": "Etah",
+                    "score": "1",
+                    "overall": "48"
+                },
+                {
+                    "name": "Etawah",
+                    "score": "1",
+                    "overall": "60"
+                },
+                {
+                    "name": "Faizabad",
+                    "score": "2",
+                    "overall": "32"
+                },
+                {
+                    "name": "Farrukhabad",
+                    "score": "4",
+                    "overall": "61"
+                },
+                {
+                    "name": "Fatehpur",
+                    "score": "1",
+                    "overall": "94"
+                },
+                {
+                    "name": "Firozabad",
+                    "score": "2",
+                    "overall": "52"
+                },
+                {
+                    "name": "GBN Faridabad",
+                    "score": "1",
+                    "overall": "38"
+                },
+                {
+                    "name": "Ghaziabad",
+                    "score": "5",
+                    "overall": "35"
+                },
+                {
+                    "name": "Ghazipur",
+                    "score": "2",
+                    "overall": "92"
+                },
+                {
+                    "name": "Gonda",
+                    "score": "1",
+                    "overall": "41"
+                },
+                {
+                    "name": "Gorakhpur",
+                    "score": "3",
+                    "overall": "42"
+                },
+                {
+                    "name": "Hamirpur",
+                    "score": "2",
+                    "overall": "15"
+                },
+                {
+                    "name": "Hardoi",
+                    "score": "1",
+                    "overall": "25"
+                },
+                {
+                    "name": "Jalaun",
+                    "score": "1",
+                    "overall": "94"
+                },
+                {
+                    "name": "Jaunpur",
+                    "score": "1",
+                    "overall": "23"
+                },
+                {
+                    "name": "Jhansi",
+                    "score": "3",
+                    "overall": "67"
+                },
+                {
+                    "name": "Jyotiba Nagar",
+                    "score": "2",
+                    "overall": "23"
+                },
+                {
+                    "name": "Kannauj",
+                    "score": "1",
+                    "overall": "32"
+                },
+                {
+                    "name": "Kanpur Dehat",
+                    "score": "2",
+                    "overall": "42"
+                },
+                {
+                    "name": "Kanpur Nagar",
+                    "score": "2",
+                    "overall": "5"
+                },
+                {
+                    "name": "Kanshiram Nagar",
+                    "score": "3",
+                    "overall": "71"
+                },
+                {
+                    "name": "Kaushambi",
+                    "score": "1",
+                    "overall": "16"
+                },
+                {
+                    "name": "Kheri",
+                    "score": "3",
+                    "overall": "45"
+                },
+                {
+                    "name": "Kushinagar",
+                    "score": "1",
+                    "overall": "60"
+                },
+                {
+                    "name": "Lalitpur",
+                    "score": "2",
+                    "overall": "46"
+                },
+                {
+                    "name": "Lucknow",
+                    "score": "5",
+                    "overall": "14"
+                },
+                {
+                    "name": "Mahamaya Nagar",
+                    "score": "3",
+                    "overall": "88"
+                },
+                {
+                    "name": "Mahoba",
+                    "score": "2",
+                    "overall": "47"
+                },
+                {
+                    "name": "Mahraganj",
+                    "score": "4",
+                    "overall": "29"
+                },
+                {
+                    "name": "Mainpuri",
+                    "score": "1",
+                    "overall": "82"
+                },
+                {
+                    "name": "Mathura",
+                    "score": "2",
+                    "overall": "35"
+                },
+                {
+                    "name": "Mau",
+                    "score": "3",
+                    "overall": "57"
+                },
+                {
+                    "name": "Meerut",
+                    "score": "3",
+                    "overall": "71"
+                },
+                {
+                    "name": "Mirzapur",
+                    "score": "2",
+                    "overall": "68"
+                },
+                {
+                    "name": "Muzaffarnagar",
+                    "score": "3",
+                    "overall": "87"
+                },
+                {
+                    "name": "Phule",
+                    "score": "3",
+                    "overall": "48"
+                },
+                {
+                    "name": "Pilibhit",
+                    "score": "1",
+                    "overall": "8"
+                },
+                {
+                    "name": "Pratapgarh",
+                    "score": "1",
+                    "overall": "80"
+                },
+                {
+                    "name": "Rae Bareli",
+                    "score": "3",
+                    "overall": "28"
+                },
+                {
+                    "name": "Rampur",
+                    "score": "4",
+                    "overall": "66"
+                },
+                {
+                    "name": "SKN",
+                    "score": "1",
+                    "overall": "47"
+                },
+                {
+                    "name": "SRNB",
+                    "score": "2",
+                    "overall": "91"
+                },
+                {
+                    "name": "Saharanpur",
+                    "score": "3",
+                    "overall": "19"
+                },
+                {
+                    "name": "Shahjahanpur",
+                    "score": "2",
+                    "overall": "18"
+                },
+                {
+                    "name": "Shrawasti",
+                    "score": "1",
+                    "overall": "17"
+                },
+                {
+                    "name": "Siddharthnagar",
+                    "score": "4",
+                    "overall": "11"
+                },
+                {
+                    "name": "Sitapur",
+                    "score": "1",
+                    "overall": "73"
+                },
+                {
+                    "name": "Sonbhadra",
+                    "score": "2",
+                    "overall": "43"
+                },
+                {
+                    "name": "Sultanpur",
+                    "score": "4",
+                    "overall": "49"
+                },
+                {
+                    "name": "Unnao",
+                    "score": "5",
+                    "overall": "57"
+                },
+                {
+                    "name": "Varanasi",
+                    "score": "3",
+                    "overall": "57"
+                }
+            ]
         },
         {
             "short_code": "UT",
             "name": "Uttarakhand",
-            "svg_path": "uttarakhand.svg"
+            "svg_path": "uttarakhand.svg",
+            "score": 3,
+            "overall": 13,
+            "district": [
+                {
+                    "name": "Almora",
+                    "score": "1",
+                    "overall": "31"
+                },
+                {
+                    "name": "Bageshwar",
+                    "score": "2",
+                    "overall": "26"
+                },
+                {
+                    "name": "Chamoli",
+                    "score": "2",
+                    "overall": "10"
+                },
+                {
+                    "name": "Champawat",
+                    "score": "2",
+                    "overall": "25"
+                },
+                {
+                    "name": "Dehradun",
+                    "score": "1",
+                    "overall": "42"
+                },
+                {
+                    "name": "Garhwal",
+                    "score": "4",
+                    "overall": "28"
+                },
+                {
+                    "name": "Hardwar",
+                    "score": "2",
+                    "overall": "93"
+                },
+                {
+                    "name": "Nainital",
+                    "score": "3",
+                    "overall": "88"
+                },
+                {
+                    "name": "Pithoragarh",
+                    "score": "1",
+                    "overall": "36"
+                },
+                {
+                    "name": "Rudraprayag",
+                    "score": "2",
+                    "overall": "28"
+                },
+                {
+                    "name": "Tehri Garhwal",
+                    "score": "1",
+                    "overall": "54"
+                },
+                {
+                    "name": "Udham Singh Nagar",
+                    "score": "4",
+                    "overall": "30"
+                },
+                {
+                    "name": "Uttarakshi",
+                    "score": "2",
+                    "overall": "49"
+                }
+            ]
         },
         {
             "short_code": "WB",
             "name": "West Bengal",
-            "svg_path": "west-bengal.svg"
+            "svg_path": "west-bengal.svg",
+            "score": 3.5,
+            "overall": 19,
+            "district": [
+                {
+                    "name": "Bankura",
+                    "score": "1",
+                    "overall": "52"
+                },
+                {
+                    "name": "Barddhaman",
+                    "score": "2",
+                    "overall": "18"
+                },
+                {
+                    "name": "Birbhum",
+                    "score": "1",
+                    "overall": "95"
+                },
+                {
+                    "name": "Dakshin Dinajpur",
+                    "score": "3",
+                    "overall": "29"
+                },
+                {
+                    "name": "Darjiling",
+                    "score": "1",
+                    "overall": "45"
+                },
+                {
+                    "name": "Haora",
+                    "score": "5",
+                    "overall": "5"
+                },
+                {
+                    "name": "Hugli",
+                    "score": "3",
+                    "overall": "37"
+                },
+                {
+                    "name": "Jalpaiguri",
+                    "score": "4",
+                    "overall": "23"
+                },
+                {
+                    "name": "Koch Bihar",
+                    "score": "2",
+                    "overall": "96"
+                },
+                {
+                    "name": "Kolkata",
+                    "score": "5",
+                    "overall": "6"
+                },
+                {
+                    "name": "Maldah",
+                    "score": "2",
+                    "overall": "99"
+                },
+                {
+                    "name": "Murshidabad",
+                    "score": "3",
+                    "overall": "29"
+                },
+                {
+                    "name": "Nadia",
+                    "score": "1",
+                    "overall": "95"
+                },
+                {
+                    "name": "North Twenty Four Parganas",
+                    "score": "2",
+                    "overall": "10"
+                },
+                {
+                    "name": "Paschim Medinipur",
+                    "score": "3",
+                    "overall": "13"
+                },
+                {
+                    "name": "Purba Medinipur",
+                    "score": "3",
+                    "overall": "85"
+                },
+                {
+                    "name": "Puruliya",
+                    "score": "1",
+                    "overall": "55"
+                },
+                {
+                    "name": "South Twenty Four Parganas",
+                    "score": "2",
+                    "overall": "9"
+                },
+                {
+                    "name": "Uttar Dinajpur",
+                    "score": "1",
+                    "overall": "88"
+                }
+            ]
         }
     ]
 }
