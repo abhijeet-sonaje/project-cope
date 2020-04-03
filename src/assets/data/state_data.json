@@ -1,0 +1,189 @@
+{
+    "data": [
+        {
+            "short_code": "IN",
+            "name": "All States",
+            "svg_path": "india-states.svg"
+        },
+        {
+            "short_code": "AN",
+            "name": "Andaman and Nicobar Islands",
+            "svg_path": "a-n-islands.svg"
+        },
+        {
+            "short_code": "AP",
+            "name": "Andhra Pradesh",
+            "svg_path": "andhra-pradesh.svg"
+        },
+        {
+            "short_code": "AR",
+            "name": "Arunachal Pradesh",
+            "svg_path": "arunachal-pradesh.svg"
+        },
+        {
+            "short_code": "AS",
+            "name": "Assam",
+            "svg_path": "assam.svg"
+        },
+        {
+            "short_code": "BR",
+            "name": "Bihar",
+            "svg_path": "bihar.svg"
+        },
+        {
+            "short_code": "CH",
+            "name": "Chandigarh",
+            "svg_path": "chandigarh.svg"
+        },
+        {
+            "short_code": "CT",
+            "name": "Chhattisgarh",
+            "svg_path": "chhattisgarh.svg"
+        },
+        {
+            "short_code": "DN",
+            "name": "Dadra and Nagar Haveli",
+            "svg_path": "d-n-haveli.svg"
+        },
+        {
+            "short_code": "DD",
+            "name": "Daman and Diu",
+            "svg_path": "daman-diu.svg"
+        },
+        {
+            "short_code": "DL",
+            "name": "Delhi",
+            "svg_path": "delhi.svg"
+        },
+        {
+            "short_code": "GA",
+            "name": "Goa",
+            "svg_path": "goa.svg"
+        },
+        {
+            "short_code": "GJ",
+            "name": "Gujarat",
+            "svg_path": "gujarat.svg"
+        },
+        {
+            "short_code": "HR",
+            "name": "Haryana",
+            "svg_path": "haryana.svg"
+        },
+        {
+            "short_code": "HP",
+            "name": "Himachal Pradesh",
+            "svg_path": "himachal-pradesh.svg"
+        },
+        {
+            "short_code": "JK",
+            "name": "Jammu and Kashmir",
+            "svg_path": "jammu-kashmir.svg"
+        },
+        {
+            "short_code": "JH",
+            "name": "Jharkhand",
+            "svg_path": "jharkhand.svg"
+        },
+        {
+            "short_code": "KA",
+            "name": "Karnataka",
+            "svg_path": "karnataka.svg"
+        },
+        {
+            "short_code": "KL",
+            "name": "Kerala",
+            "svg_path": "kerala.svg"
+        },
+        {
+            "short_code": "LD",
+            "name": "Lakshadweep",
+            "svg_path": "lakshadweep.svg"
+        },
+        {
+            "short_code": "MP",
+            "name": "Madhya Pradesh",
+            "svg_path": "madhya-pradesh.svg"
+        },
+        {
+            "short_code": "MH",
+            "name": "Maharashtra",
+            "svg_path": "maharashtra.svg"
+        },
+        {
+            "short_code": "MN",
+            "name": "Manipur",
+            "svg_path": "manipur.svg"
+        },
+        {
+            "short_code": "ML",
+            "name": "Meghalaya",
+            "svg_path": "meghalaya.svg"
+        },
+        {
+            "short_code": "MZ",
+            "name": "Mizoram",
+            "svg_path": "mizoram.svg"
+        },
+        {
+            "short_code": "NL",
+            "name": "Nagaland",
+            "svg_path": "nagaland.svg"
+        },
+        {
+            "short_code": "OR",
+            "name": "Odisha",
+            "svg_path": "odisha.svg"
+        },
+        {
+            "short_code": "PY",
+            "name": "Puducherry",
+            "svg_path": "puducherry.svg"
+        },
+        {
+            "short_code": "PB",
+            "name": "Punjab",
+            "svg_path": "punjab.svg"
+        },
+        {
+            "short_code": "RJ",
+            "name": "Rajasthan",
+            "svg_path": "rajasthan.svg"
+        },
+        {
+            "short_code": "SK",
+            "name": "Sikkim",
+            "svg_path": "sikkim.svg"
+        },
+        {
+            "short_code": "TN",
+            "name": "Tamil Nadu",
+            "svg_path": "tamil-nadu.svg"
+        },
+        {
+            "short_code": "TG",
+            "name": "Telangana",
+            "svg_path": "tamil-nadu.svg"
+        },
+        {
+            "short_code": "TR",
+            "name": "Tripura",
+            "svg_path": "tripura.svg"
+        },
+        {
+            "short_code": "UP",
+            "name": "Uttar Pradesh",
+            "svg_path": "uttar-pradesh.svg"
+        },
+        {
+            "short_code": "UT",
+            "name": "Uttarakhand",
+            "svg_path": "uttarakhand.svg"
+        },
+        {
+            "short_code": "WB",
+            "name": "West Bengal",
+            "svg_path": "west-bengal.svg"
+        }
+    ]
+}
