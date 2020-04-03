@@ -50,6 +50,10 @@
     align-items: center;
 }
 
+mat-nav-list.active {
+    background-color: #5a5a5a;
+}
+
 @media only screen and (max-width: 840px){
 
     .toolbar-right-container{
