@@ -1,1 +1,104 @@
-<p>Graph View works!</p>
+<div class="row">
+    <div class="col-md">
+        <mat-form-field>
+            <mat-label>Select State</mat-label>
+            <mat-select [(ngModel)]="selectedState" name="States" (selectionChange)="stateOnChangeEvent()">
+                <mat-option *ngFor="let state of states" [value]="state">
+                    {{state.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div class="col-md">
+        <mat-form-field>
+            <mat-label>Select Gender</mat-label>
+            <mat-select [(ngModel)]="selectedGender" name="Genders" (selectionChange)="genderOnChangeEvent()">
+                <mat-option *ngFor="let gender of genders" [value]="gender">
+                    {{ gender }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div class="col-md">
+        <mat-form-field>
+            <mat-label>Select Age</mat-label>
+            <mat-select [(ngModel)]="selectedAge" name="Ages" (selectionChange)="ageOnChangeEvent()">
+                <mat-option *ngFor="let age of ages" [value]="age">
+                    {{ age.name }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Creatinine</mat-card-title>
+                <mat-card-subtitle>Unit: mg/dl &emsp; ParamID: 854</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <canvas baseChart [datasets]="barchart.data" [labels]="barchart.labels" [options]="barchart.options"
+                    [legend]="barchart.legend" [chartType]="barchart.type">
+                </canvas>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="col-md-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>IgG, SERUM</mat-card-title>
+                <mat-card-subtitle>Unit: mg/dl &emsp; ParamID: 1419</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <canvas baseChart [datasets]="barchart.data" [labels]="barchart.labels" [options]="barchart.options"
+                    [legend]="barchart.legend" [chartType]="barchart.type">
+                </canvas>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="col-md-4">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>IgM, SERUM</mat-card-title>
+                <mat-card-subtitle>Unit: mg/dl &emsp; ParamID: 1420</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <canvas baseChart [datasets]="barchart.data" [labels]="barchart.labels" [options]="barchart.options"
+                    [legend]="barchart.legend" [chartType]="barchart.type">
+                </canvas>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+<br />
+
+<div class="row">
+    <div class="col-md-6">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>ALT/AST Ratio</mat-card-title>
+                <mat-card-subtitle>ParamID: 976</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <canvas baseChart [datasets]="barchart.data" [labels]="barchart.labels" [options]="barchart.options"
+                    [legend]="barchart.legend" [chartType]="barchart.type">
+                </canvas>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="col-md-6">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>NLR Ratio</mat-card-title>
+                <mat-card-subtitle>&emsp;</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <canvas baseChart [datasets]="barchart.data" [labels]="barchart.labels" [options]="barchart.options"
+                    [legend]="barchart.legend" [chartType]="barchart.type">
+                </canvas>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
