@@ -32,7 +32,7 @@ export class MapViewComponent implements OnInit {
     /** list of states */
     states: State[] = [];
 
-    gradientColors = ["#0295e1", "#0492dc", "#068fd8", "#098cd3", "#0b89cf", "#0d86ca", "#0f83c6", "#1180c1", "#137dbd", "#167ab8", "#1877b4", "#1a74af", "#1c71ab", "#1e6ea6", "#206ba2", "#23689d", "#256599", "#276294", "#295f90", "#2b5c8b", "#2d5987", "#2f5682", "#32537e", "#345079", "#364d75", "#384b70", "#3a486c", "#3c4567", "#3f4263", "#413f5e", "#433c5a", "#453955", "#473651", "#49334c", "#4b3048", "#4e2d43", "#502a3f", "#52273a", "#542436", "#562131", "#581e2d", "#5b1b28", "#5d1824", "#5f151f", "#61121b", "#630f16", "#650c12", "#68090d", "#6a0609", "#6c0304"];
+    gradientColors = ["#05fa00", "#0af500", "#0ff000", "#14eb00", "#19e600", "#1ee100", "#23dc00", "#28d700", "#2dd200", "#32cd00", "#37c800", "#3cc300", "#41be00", "#46b900", "#4bb400", "#50af00", "#55aa00", "#5aa500", "#5fa000", "#649b00", "#699600", "#6e9100", "#738c00", "#788700", "#7d8200", "#827d00", "#877800", "#8c7300", "#916e00", "#966900", "#9b6400", "#a05f00", "#a55a00", "#aa5500", "#af5000", "#b44b00", "#b94600", "#be4100", "#c33c00", "#c83700", "#cd3200", "#d22d00", "#d72800", "#dc2300", "#e11e00", "#e61900", "#eb1400", "#f00f00", "#f50a00", "#fa0500"];
 
     svgDocument;
 
@@ -57,7 +57,7 @@ export class MapViewComponent implements OnInit {
                 for (let i = 1; i < that.states.length; i++) {
                     const currentState: State = that.states[i];
                     currentState.name = currentState.name.toUpperCase();
-                    that.fillColor(currentState.name, currentState.score)
+                    that.fillColor(currentState.name, currentState.score);
                 }
             } else {
                 for (let i = 0; i < that.selectedState.district.length; i++) {
@@ -72,7 +72,8 @@ export class MapViewComponent implements OnInit {
     fillColor(title, score) {
         const path = this.svgDocument.querySelector(`path[title="${title}"]`);
         if (path) {
-            path.setAttribute("fill", this.gradientColors[score * 10 - 1]);
+            score = (score * 10 - 1); // To get the score in between 0 to 49 for gradient color array
+            path.setAttribute("fill", this.gradientColors[score]);
         } else {
             console.log('Title : ', title);
         }
