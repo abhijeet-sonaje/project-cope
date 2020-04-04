@@ -7,6 +7,7 @@ import { MaterialModule } from './../app.module';
 import { MapViewComponent } from './map-view/map-view.component';
 import { GraphViewComponent } from './graph-view/graph-view.component';
 import { SvgComponent } from './svg/svg.component';
+import { ChartsModule } from 'ng2-charts';
 import { DashboardRoutes } from './dashboard.routing';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
         FormsModule,
         ReactiveFormsModule,
         MaterialModule,
-        HttpClientModule
+        HttpClientModule,
+        ChartsModule
     ]
 })
 export class DashboardModule { }
