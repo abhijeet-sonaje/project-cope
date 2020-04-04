@@ -1,35 +1,45 @@
 <div class="row">
     <div class="col-md-4">
-        <!-- <mat-form-field>
-            <mat-select [formControl]="stateCtrl" placeholder="States" #singleSelect>
-                <mat-select-search [formControl]="stateFilterCtrl"></mat-select-search>
-                <mat-option *ngFor="let state of filteredStates | async" [value]="state">
-                    {{ state.name }}
-                </mat-option>
-            </mat-select>
-        </mat-form-field> -->
+        <div class="row">
+            <div class="col-md">
+                <mat-form-field>
+                    <mat-label>States</mat-label>
+                    <mat-select [(ngModel)]="selectedState" name="States" (selectionChange)="selectionOnChangeEvent()">
+                        <mat-option *ngFor="let state of states" [value]="state">
+                            {{state.name}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
 
-        <mat-form-field>
-            <mat-label>States</mat-label>
-            <mat-select [(ngModel)]="selectedState" name="States">
-                <mat-option *ngFor="let state of states" [value]="state">
-                    {{state.name}}
-                </mat-option>
-            </mat-select>
-        </mat-form-field>
+        <div class="row">
+            <div class="col-md">
+                <svg id="legend" width="200" height="20">
+                    <defs>
+                        <linearGradient id="RYG">
+                            <stop offset="5%" stop-color="#0295e1" />
+                            <stop offset="50%" stop-color="#364d75" />
+                            <stop offset="95%" stop-color="#6c0304" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="0" y="0" width="200" height="20" fill="url(#RYG)" />
+                    <text id="lo" x="5" y="16" text-anchor="start">0</text>
+                    <text id="md" x="100" y="16" text-anchor="middle">2.5</text>
+                    <text id="hi" x="195" y="16" text-anchor="end">5</text>
+                </svg>
+            </div>
+        </div>
     </div>
     <div class="col-md-8">
         <div class="row">
             <div class="col-md">
-                <!-- Selected State: {{ stateCtrl.value?.name }} -->
                 Selected State: {{ selectedState?.name }}
             </div>
         </div>
         <div class="row">
-            <div class="col-md" style="height: 70vh;">
-                <!-- <object style="width: 100%;height: 65%;" type="image/svg+xml"
-                    [data]="getSvgUrl(stateCtrl.value)"></object> -->
-                <img class="svg-img-tag" type="image/svg+xml" [src]="getSvgUrl(selectedState)">
+            <div class="col-md">
+                <app-svg></app-svg>
             </div>
         </div>
     </div>

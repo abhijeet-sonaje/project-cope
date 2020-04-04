@@ -6,13 +6,15 @@ import { MaterialModule } from './../app.module';
 
 import { MapViewComponent } from './map-view/map-view.component';
 import { GraphViewComponent } from './graph-view/graph-view.component';
+import { SvgComponent } from './svg/svg.component';
 import { DashboardRoutes } from './dashboard.routing';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
     declarations: [
         MapViewComponent,
-        GraphViewComponent
+        GraphViewComponent,
+        SvgComponent
     ],
     imports: [
         CommonModule,
