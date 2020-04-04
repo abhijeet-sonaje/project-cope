@@ -1,1 +1,55 @@
-<p>Graph View works!</p>
+
+    <section class="section">
+        <div class="container" style="margin-top: -5vh;">
+          <h1 class="title">Analytics</h1>
+          <h2 class="subtitle">
+            A set of simple visualization tools to help you come up <strong>with a hypothesis.</strong>
+          </h2>
+        </div>
+      
+  
+      
+          <div class="container" style="margin-top: 5vh;">
+  
+              <div class="columns">
+                  <div *ngFor="let parameter of parameters" class="column is-one-fifths">
+                      <div class="dropdown" [ngClass]= "{'is-active': parameter1Button}" (click)="parameter1Click()">
+                          <div class="dropdown-trigger">
+                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                              <span>{{parameter}}</span>
+                              <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                              </span>
+                            </button>
+                          </div>
+                          <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                            <div class="dropdown-content">
+                              <a href="#" class="dropdown-item">
+                                Dropdown item
+                              </a>
+                              <a class="dropdown-item">
+                                Other dropdown item
+                              </a>
+                              <a href="#" class="dropdown-item is-active">
+                                Other dropdown item
+                              </a>
+                              <a href="#" class="dropdown-item">
+                                Other dropdown item
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+  
+                  
+                </div>
+              
+          </div>
+        </section>
+  
+        <section class="section">
+          <div class="container" style="margin-top: -10vh ;border:1px solid lightblue;; height: 450px; border-radius: 30px;">
+          heyy
+          </div>
+        </section>
+  

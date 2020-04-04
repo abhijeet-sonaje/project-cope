@@ -5,11 +5,33 @@ import { Component, OnInit } from '@angular/core';
     templateUrl: './graph-view.component.html',
     styleUrls: ['./graph-view.component.scss']
 })
+
 export class GraphViewComponent implements OnInit {
 
-    constructor() { }
+  parameters = ['State', 'Gender', 'Age']
+  parameter1Button = false;
+  parameter2Button = false;
+  parameter3Button = false;
 
-    ngOnInit() {
-    }
+  parameter1Click(){
+    console.log("hi");
+    this.parameter1Button = !this.parameter1Button;
+  }
+  
+  parameter2Click(){
+    console.log("hi");
+    this.parameter1Button = !this.parameter1Button;
+  }
+  
+  parameter3Click(){
+    console.log("hi");
+    this.parameter1Button = !this.parameter1Button;
+  }
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 
 }
+
