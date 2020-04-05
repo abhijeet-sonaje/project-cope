@@ -1,0 +1,43 @@
+{
+    "id": "fb314d19-e345-2cba-8fd0-15320ced9ae7",
+    "name": "livehealth",
+    "description": "",
+    "order": ["1de96a3d-267d-1e05-b4a4-4fa9abda5483"],
+    "folders": [],
+    "folders_order": [],
+    "timestamp": 0,
+    "owner": "10223350",
+    "public": false,
+    "requests": [
+        {
+            "id": "1de96a3d-267d-1e05-b4a4-4fa9abda5483",
+            "url": "https://asia-northeast1-corona-outbreak-prediction.cloudfunctions.net/livehealth-ingest",
+            "queryParams": [],
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "headerData": [
+                {
+                    "key": "Content-Type",
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "data": [],
+            "dataMode": "raw",
+            "tests": null,
+            "preRequestScript": null,
+            "currentHelper": "normal",
+            "pathVariables": [],
+            "pathVariableData": [],
+            "version": 2,
+            "request": "10223350-23223b29-2814-01f3-0dac-8ae11435d084",
+            "name": "https://asia-northeast1-corona-outbreak-prediction.cloudfunctions.net/livehealth-ingest",
+            "description": "",
+            "descriptionFormat": "html",
+            "collectionId": "fb314d19-e345-2cba-8fd0-15320ced9ae7",
+            "rawModeData": "[\r\n  {\r\n    \"testtime\": \"2019-06-11T14:44:31\",\r\n    \"igg\": 0.0,\r\n    \"igm\": 1.1,\r\n    \"city\": \"Pune\",\r\n    \"pincode\": \"411007\",\r\n    \"state\": \"Maharashtra\",\r\n    \"result\": true\r\n  }\r\n]"
+        }
+    ]
+}
