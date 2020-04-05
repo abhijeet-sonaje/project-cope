@@ -2,3 +2,31 @@
     padding: 5%;
     height: 100vh;
 }
+
+div.scrolling-limit{
+    width: 80vw;
+    height: 2%;
+    // background-color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+div.scrolling{
+    position: relative;
+    -webkit-animation: scroll 20s infinite linear;;
+    -moz-animation: scroll 20s infinite linear;
+    -o-animation: scroll 20s infinite linear;
+    animation: scroll 20s infinite linear;
+}
+
+@keyframes scroll{
+    0%   {left: 100%;}
+    100% {left: -300px;}
+}
+
+@-webkit-keyframes scroll{
+    0%   {left: 100%;}
+    100% {left: -300px;}
+}
