@@ -1,21 +1,23 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
-import { MaterialModule } from './../app.module';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
+import { MaterialModule } from "./../app.module";
 
-import { MapViewComponent } from './map-view/map-view.component';
-import { GraphViewComponent } from './graph-view/graph-view.component';
-import { SvgComponent } from './svg/svg.component';
-import { ChartsModule } from 'ng2-charts';
-import { DashboardRoutes } from './dashboard.routing';
-import { HttpClientModule } from '@angular/common/http';
+import { MapViewComponent } from "./map-view/map-view.component";
+import { GraphViewComponent } from "./graph-view/graph-view.component";
+import { SvgComponent } from "./svg/svg.component";
+import { ChartsModule } from "ng2-charts";
+import { DashboardRoutes } from "./dashboard.routing";
+import { HttpClientModule } from "@angular/common/http";
+import { ContactViewComponent } from "./contact-view/contact-view.component";
 
 @NgModule({
     declarations: [
         MapViewComponent,
         GraphViewComponent,
-        SvgComponent
+        SvgComponent,
+        ContactViewComponent,
     ],
     imports: [
         CommonModule,
@@ -24,7 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
         ReactiveFormsModule,
         MaterialModule,
         HttpClientModule,
-        ChartsModule
-    ]
+        ChartsModule,
+    ],
 })
-export class DashboardModule { }
+export class DashboardModule {}
